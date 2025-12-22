@@ -33,11 +33,6 @@ I build production-ready systems and enjoy turning complex problems into simple,
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=santapong&show_icons=true" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=santapong&layout=compact" />
 </p>
-
-<p>
-  <img src="https://streak-stats.demolab.com/?user=santapong" />
-</p>
-
 ---
 
 ## Current quest
