@@ -1,7 +1,7 @@
 <!-- Typing header -->
 <p align="center">
   <a href="https://github.com/<your-username>">
-    <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3500&pause=800&center=true&vCenter=true&width=900&lines=Hi%2C+I%E2%80%99m+Santapong+%28Santa%29;AI+Engineering+%7C+Quantum+Computing;Data+Engineer+%E2%86%92+Software+Engineer+%E2%86%92+AI+Engineer" />
+    <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3500&pause=800&center=true&vCenter=true&width=900&lines=Hi%2C+I%E2%80%99m+Santapong+%28Job%29;AI+Engineering+%7C+Quantum+Computing;Data+Engineer+%E2%86%92+Software+Engineer+%E2%86%92+AI+Engineer" />
   </a>
 </p>
 
