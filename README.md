@@ -20,7 +20,7 @@ I build production-ready systems and enjoy turning complex problems into simple,
 
 ---
 
-## Toolbox (edit these)
+## Toolbox
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-2F5E8D?logo=databricks&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
