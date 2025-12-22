@@ -39,3 +39,14 @@ I build production-ready systems and enjoy turning complex problems into simple,
 - Building: AI engineering projects with measurable evaluation
 - Learning: quantum computing foundations + algorithms
 - Improving: system design, testing, and observability
+
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+          srcset="https://raw.githubusercontent.com/santapong/santapong/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)"
+          srcset="https://raw.githubusercontent.com/santapong/santapong/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation"
+       src="https://raw.githubusercontent.com/santapong/santapong/output/github-contribution-grid-snake.svg" />
+</picture>
+
