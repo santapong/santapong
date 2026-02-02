@@ -69,14 +69,14 @@
 
 <div align="center">
   <h3>📊 Data Analytics</h3>
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=santapong&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0D1117" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=santapong&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=santapong&show_icons=true&theme=tokyonight" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=santapong&layout=compact&theme=tokyonight" />
 </div>
 
 <br />
 
 <div align="center">
-  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=santapong&theme=tokyonight&hide_border=true&background=0D1117" />
+  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=santapong&theme=tokyonight" />
 </div>
 
 ---
