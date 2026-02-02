@@ -77,7 +77,7 @@
              alt="GitHub Stats" />
       </td>
       <td align="center">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=santapong&show_icons=true&theme=tokyonight&hide_border=true" 
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=santapong&layout=compact&theme=tokyonight&hide_border=true" 
              height="195" 
              alt="Top Languages" />
       </td>
