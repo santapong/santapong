@@ -52,7 +52,7 @@
       <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=flat&logo=kali-linux&logoColor=white" />
     </td>
   </tr>
-</table>>
+</table>
 
 ---
 
@@ -68,6 +68,7 @@
 | **Quantum Study** | Master's Prep & Algorithms for ASI | `Qiskit` `Physics` |
 
 </div>
+
 ---
 
 <div align="center">
