@@ -69,8 +69,8 @@
 
 <div align="center">
   <h3>📊 GitHub Stats</h3>
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=santapong&show_icons=true&theme=tokyonight&hide_border=true" alt="Santapong GitHub Stats" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=santapong&layout=compact&theme=tokyonight&hide_border=true" alt="Santapong Top Languages" />
+  <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=santapong&show_icons=true&theme=tokyonight&hide_border=true" alt="Stats" />
+  <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=santapong&layout=compact&theme=tokyonight&hide_border=true" alt="Langs" />
 </div>
 
 <br />
