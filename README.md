@@ -68,15 +68,15 @@
 ---
 
 <div align="center">
-<h3>📊 Data Analytics</h3>
-<img width="48%" src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dsantapong%26show_icons%3Dtrue%26theme%3Dtokyonight%26count_private%3Dtrue%26hide_border%3Dtrue%26bg_color%3D0D1117" />
-<img width="48%" src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dsantapong%26layout%3Dcompact%26theme%3Dtokyonight%26hide_border%3Dtrue%26bg_color%3D0D1117" />
+  <h3>📊 Data Analytics</h3>
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=santapong&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0D1117" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=santapong&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" />
 </div>
 
 <br />
 
 <div align="center">
-<img width="100%" src="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dsantapong%26theme%3Dtokyonight%26hide_border%3Dtrue%26background%3D0D1117" />
+  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=santapong&theme=tokyonight&hide_border=true&background=0D1117" />
 </div>
 
 ---
