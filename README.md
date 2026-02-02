@@ -56,15 +56,18 @@
 
 ---
 
+<div align="center">
+
 ### 🧪 Active Protocols (Projects)
 
 | Protocol | Description | Tech Stack |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | **Agentic AI** | "Company as a Service" tool with AI Agents | `n8n` `Python` `LLMs` |
 | **Money Manager** | Personal Finance & Wealth Platform | `Next.js` `Prisma 7` `PostgreSQL` |
 | **Portfolio** | Professional Personal Website | `Bun` `TypeScript` `Tailwind` |
 | **Quantum Study** | Master's Prep & Algorithms for ASI | `Qiskit` `Physics` |
 
+</div>
 ---
 
 <div align="center">
