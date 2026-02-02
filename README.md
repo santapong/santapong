@@ -30,29 +30,29 @@
 ---
 
 <table align="center" border="0" cellpadding="10">
-<tr>
-<td align="center" width="50%">
-<h3>🧠 The Neural Network</h3>
-<sub>AI, Automation & Data</sub>
-<br /><br />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Python-3776AB%3Fstyle%3Dflat%26logo%3Dpython%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/PyTorch-EE4C2C%3Fstyle%3Dflat%26logo%3Dpytorch%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/n8n-FF6C37%3Fstyle%3Dflat%26logo%3Dn8n%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/PostgreSQL-336791%3Fstyle%3Dflat%26logo%3Dpostgresql%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Dokploy-000000%3Fstyle%3Dflat%26logo%3Ddocker%26logoColor%3Dwhite" />
-</td>
-<td align="center" width="50%">
-<h3>🏗️ The Infrastructure</h3>
-<sub>Deployment & Systems</sub>
-<br /><br />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/TypeScript-3178C6%3Fstyle%3Dflat%26logo%3Dtypescript%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Next.js-000000%3Fstyle%3Dflat%26logo%3Dnextdotjs%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Bun-000000%3Fstyle%3Dflat%26logo%3Dbun%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Prisma%25207-2D3748%3Fstyle%3Dflat%26logo%3Dprisma%26logoColor%3Dwhite" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Kali_Linux-557C94%3Fstyle%3Dflat%26logo%3Dkali-linux%26logoColor%3Dwhite" />
-</td>
-</tr>
-</table>
+  <tr>
+    <td align="center" width="50%">
+      <h3>🧠 The Neural Network</h3>
+      <sub>AI, Automation & Data</sub>
+      <br /><br />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
+      <img src="https://img.shields.io/badge/n8n-FF6C37?style=flat&logo=n8n&logoColor=white" />
+      <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white" />
+      <img src="https://img.shields.io/badge/Dokploy-000000?style=flat&logo=docker&logoColor=white" />
+    </td>
+    <td align="center" width="50%">
+      <h3>🏗️ The Infrastructure</h3>
+      <sub>Deployment & Systems</sub>
+      <br /><br />
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/Bun-000000?style=flat&logo=bun&logoColor=white" />
+      <img src="https://img.shields.io/badge/Prisma%207-2D3748?style=flat&logo=prisma&logoColor=white" />
+      <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=flat&logo=kali-linux&logoColor=white" />
+    </td>
+  </tr>
+</table>>
 
 ---
 
