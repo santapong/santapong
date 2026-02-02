@@ -72,12 +72,12 @@
   <table align="center">
     <tr>
       <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=santapong&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" 
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=santapong&show_icons=true&theme=tokyonight&hide_border=true" 
              height="195" 
              alt="GitHub Stats" />
       </td>
       <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=santapong&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" 
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=santapong&show_icons=true&theme=tokyonight&hide_border=true" 
              height="195" 
              alt="Top Languages" />
       </td>
