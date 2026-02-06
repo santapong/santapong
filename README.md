@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
   <a href="https://github.com/santapong">
     <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=30&duration=2500&pause=500&color=00F0FF&center=true&vCenter=true&width=900&lines=System.init(Santapong);Initializing+Job.exe...;Loading+Quantum+Modules...;Target:+Artificial+Superintelligence+(ASI);Status:+Building+the+Future..." />
