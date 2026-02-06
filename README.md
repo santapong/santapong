@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=santapong&label=NEURAL_LINK_ACCESS&color=00f0ff&style=for-the-badge" />
+  <img src="https://komarev.com/ghpvc/?username=santapong&label=View&color=00f0ff&style=for-the-badge" />
 </div>
 
 ---
