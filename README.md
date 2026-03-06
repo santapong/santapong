@@ -1,109 +1,119 @@
 <div align="center">
-  <a href="https://github.com/santapong">
-    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=30&duration=2500&pause=500&color=00F0FF&center=true&vCenter=true&width=900&lines=System.init(Santapong);Initializing+Job.exe...;Loading+Quantum+Modules...;Target:+Artificial+Superintelligence+(ASI);Status:+Building+the+Future..." />
-  </a>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Caveat&weight=700&size=40&duration=3000&pause=1000&color=E8A87C&center=true&vCenter=true&width=600&lines=hey%2C+i'm+santapong+%E2%98%95;building+things+quietly...;one+commit+at+a+time" />
 </div>
 
+<br/>
+
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=santapong&label=View&color=00f0ff&style=for-the-badge" />
+  <sub>software engineer · automation tinkerer · future quantum explorer</sub>
+  <br/>
+  <sub>somewhere in thailand, probably debugging something ☁️</sub>
 </div>
+
+<br/>
 
 ---
 
-### 🟢 System Identity: `source_code.tsx`
+<br/>
 
-```typescript
-const Job = {
-    alias: "Santapong",
-    role: "Software & Automation Engineer",
-    origin: "Thailand 🇹🇭",
-    education: "KMITL (Mechatronics & Automation)",
-    
-    // Core Directives
-    mission: "Build Artificial Superintelligence (ASI)",
-    academic_target: "Master's in Quantum Computing (2027)",
-    
-    // Operating Philosophy
-    optimize: (solution) => {
-        if (solution.isCheap && solution.isBest) {
-            return "Deploy"; // Priority: High Efficiency
-        } else if (solution.isExpensive && solution.isBetter) {
-            return "Discard"; // Reject Low ROI
-        }
-    }
-};
+#### `/about`
 
 ```
+i like building things that solve real problems,
+not things that look impressive on a slide deck.
 
----
+cheap + best = ship it.
+expensive + marginal = pass.
 
-<div align="center">
+currently dreaming about quantum computing
+while writing python in my pajamas.
+```
 
-### 🛠️ The Arsenal (Tech Stack)
+<br/>
 
-| **Neural Network (AI & Data)** | **Infrastructure (DevOps & OS)** | **Frontend & Runtime** | **Future Modules (R&D)** |
-| --- | --- | --- | --- |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+#### `/now`
 
-</div>
+here's what i'm working on these days:
 
----
+| | project | what it is | built with |
+|---|---|---|---|
+| 🌿 | **agentic ai** | autonomous "company as a service" — agents doing the boring stuff | `n8n` `python` `llms` |
+| 🌱 | **money mgr** | personal finance tracker, because spreadsheets have limits | `next.js` `prisma` `postgres` |
+| 🪴 | **home lab** | 3x beelink eq13s running k8s in a closet | `kubernetes` `dokploy` |
+| 🌾 | **quantum prep** | studying for a master's (2027) — qiskit, linear algebra, the works | `qiskit` `math` `patience` |
 
-### 🧪 Active Protocols (Project Status)
+<br/>
 
-| Status | Protocol ID | Objective | Tech Stack |
-| --- | --- | --- | --- |
-| 🟢 | **Agentic AI** | Building a "Company as a Service" autonomous platform | `n8n` `Python` `LLMs` |
-| 🟡 | **Money Mgr** | Personal Finance & Wealth Management System | `Next.js` `Prisma 7` `PostgreSQL` |
-| 🟢 | **Home Lab** | Private K8s Cluster on 3x Beelink EQ13s | `Kubernetes` `Dokploy` `Hardware` |
-| 🔵 | **ASI Prep** | Quantum Computing Algorithms & Physics Study | `Qiskit` `Mathematics` |
+#### `/tools`
 
----
-
-<div align="center">
-<h3>📊 System Metrics</h3>
-
-<a href="https://github.com/santapong">
-<img src="https://www.google.com/search?q=https://github-readme-stats-sigma-five.vercel.app/api%3Fusername%3Dsantapong%26show_icons%3Dtrue%26theme%3Dtokyonight%26hide_border%3Dtrue%26bg_color%3D0D1117%26title_color%3D00F0FF%26icon_color%3D00F0FF" height="180" alt="stats" />
-</a>
-<a href="https://github.com/santapong">
-<img src="https://www.google.com/search?q=https://github-readme-stats-sigma-five.vercel.app/api/top-langs/%3Fusername%3Dsantapong%26layout%3Dcompact%26theme%3Dtokyonight%26hide_border%3Dtrue%26bg_color%3D0D1117%26title_color%3D00F0FF%26icon_color%3D00F0FF" height="180" alt="langs" />
-</a>
-</div>
-
-<br />
-
-<div align="center">
-<img width="100%" src="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dsantapong%26theme%3Dtokyonight%26background%3D0D1117%26ring%3D00F0FF%26fire%3D00F0FF%26currStreakLabel%3D00F0FF" />
-</div>
-
----
-
-<div align="center">
-
-### 📡 Establish Uplink
-
-<a href="https://www.google.com/search?q=https://linkedin.com/in/YOUR_LINKEDIN">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-Connect-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" />
-</a>
-<a href="mailto:your-email@example.com">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Email-Send_Packet-D14836%3Fstyle%3Dfor-the-badge%26logo%3Dgmail%26logoColor%3Dwhite" />
-</a>
-<a href="https://www.google.com/search?q=https://youtube.com/%40YOUR_CHANNEL">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/YouTube-Content-FF0000%3Fstyle%3Dfor-the-badge%26logo%3Dyoutube%26logoColor%3Dwhite" />
-</a>
-
-<br /><br />
-
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santapong/santapong/output/github-contribution-grid-snake-dark.svg" />
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/santapong/santapong/output/github-contribution-grid-snake.svg" />
-<img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/santapong/santapong/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
+things i reach for:
 
 ```
+  daily drivers    python · typescript · power platform · sql
+  ai & data        langchain · fabric · pandas · kusto
+  infrastructure   docker · kubernetes · github actions · linux
+  frontend         next.js · react · tailwind
+  exploring        qiskit · quantum circuits · category theory
+```
+
+<br/>
+
+#### `/education`
+
+```
+  🎓  KMITL — Mechatronics & Automation Engineering
+  📐  Next: Master's in Quantum Computing (2027)
+```
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+
+<a href="https://github.com/santapong">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=santapong&show_icons=true&hide_border=true&bg_color=FAF3E0&title_color=D4A373&icon_color=E8A87C&text_color=6B705C&ring_color=D4A373" height="170" />
+</a>
+<a href="https://github.com/santapong">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=santapong&layout=compact&hide_border=true&bg_color=FAF3E0&title_color=D4A373&text_color=6B705C" height="170" />
+</a>
+
+<br/><br/>
+
+<img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=santapong&background=FAF3E0&ring=D4A373&fire=E8A87C&currStreakLabel=D4A373&sideLabels=6B705C&sideNums=6B705C&currStreakNum=6B705C&dates=A5A58D&stroke=DDB892&hide_border=true" />
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+  <sub>
+
+  let's connect — or don't, that's cool too
+
+  [![LinkedIn](https://img.shields.io/badge/linkedin-%236B705C?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
+  [![Email](https://img.shields.io/badge/email-%23D4A373?style=flat-square&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+  [![YouTube](https://img.shields.io/badge/youtube-%23E8A87C?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/@YOUR_CHANNEL)
+
+  </sub>
+</div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santapong/santapong/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/santapong/santapong/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/santapong/santapong/output/github-contribution-grid-snake.svg" />
+  </picture>
+</div>
+
+<div align="center">
+  <sub>☕ thanks for stopping by</sub>
+</div>
