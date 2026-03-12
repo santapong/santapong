@@ -1,207 +1,106 @@
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- 🖥️  SANTAPONG OS v3.0 — GitHub Profile README                 -->
+<!-- 🖥️  SANTAPONG — GitHub Profile README v3.1                    -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<!-- ▓▓▓ ANIMATED SVG BOOT HEADER ▓▓▓ -->
-<svg width="840" height="280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!-- ▓▓▓ MINIMAL ANIMATED HEADER ▓▓▓ -->
+<svg width="840" height="240" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Gradients -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0e17"/>
-      <stop offset="50%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#0a0e17"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#111820"/>
     </linearGradient>
-    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00ff41">
-        <animate attributeName="stop-color" values="#00ff41;#58a6ff;#bc8cff;#f778ba;#00ff41" dur="8s" repeatCount="indefinite"/>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff">
+        <animate attributeName="stop-color" values="#58a6ff;#bc8cff;#58a6ff" dur="10s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="33%" stop-color="#58a6ff">
-        <animate attributeName="stop-color" values="#58a6ff;#bc8cff;#f778ba;#00ff41;#58a6ff" dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="66%" stop-color="#bc8cff">
-        <animate attributeName="stop-color" values="#bc8cff;#f778ba;#00ff41;#58a6ff;#bc8cff" dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#f778ba">
-        <animate attributeName="stop-color" values="#f778ba;#00ff41;#58a6ff;#bc8cff;#f778ba" dur="8s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#bc8cff">
+        <animate attributeName="stop-color" values="#bc8cff;#58a6ff;#bc8cff" dur="10s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
-    <linearGradient id="scanLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#00ff41" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#00ff41" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00ff41" stop-opacity="0.6">
-        <animate attributeName="stop-opacity" values="0.6;0.2;0.6" dur="3s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.4">
-        <animate attributeName="stop-opacity" values="0.4;0.7;0.4" dur="3s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0.6">
-        <animate attributeName="stop-opacity" values="0.6;0.2;0.6" dur="3s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
-    <!-- Glow filter -->
     <filter id="glow">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="softGlow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <!-- Dot pattern -->
-    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="0.5" fill="#00ff41" opacity="0.08"/>
-    </pattern>
-    <!-- Particle -->
-    <circle id="p" r="1.2" fill="#00ff41" opacity="0.5"/>
   </defs>
 
   <!-- Background -->
-  <rect width="840" height="280" fill="url(#bgGrad)" rx="16"/>
-  <!-- Animated border -->
-  <rect x="1" y="1" width="838" height="278" rx="15" fill="none" stroke="url(#borderGlow)" stroke-width="1.5"/>
-  <!-- Dot overlay -->
-  <rect width="840" height="280" fill="url(#dots)" rx="16"/>
+  <rect width="840" height="240" fill="url(#bg)" rx="16"/>
 
-  <!-- Grid lines -->
-  <g opacity="0.03" stroke="#58a6ff" stroke-width="0.5">
-    <line x1="0" y1="56" x2="840" y2="56"/><line x1="0" y1="112" x2="840" y2="112"/>
-    <line x1="0" y1="168" x2="840" y2="168"/><line x1="0" y1="224" x2="840" y2="224"/>
-    <line x1="168" y1="0" x2="168" y2="280"/><line x1="336" y1="0" x2="336" y2="280"/>
-    <line x1="504" y1="0" x2="504" y2="280"/><line x1="672" y1="0" x2="672" y2="280"/>
-  </g>
+  <!-- ═══ Ambient orbs — soft, slow, out of focus ═══ -->
+  <circle cx="140" cy="120" r="80" fill="#58a6ff" opacity="0.03">
+    <animate attributeName="r" values="80;95;80" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.03;0.05;0.03" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="120" r="90" fill="#bc8cff" opacity="0.03">
+    <animate attributeName="r" values="90;75;90" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.03;0.05;0.03" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="420" cy="200" r="60" fill="#3fb950" opacity="0.02">
+    <animate attributeName="r" values="60;70;60" dur="7s" repeatCount="indefinite"/>
+  </circle>
 
-  <!-- ══ Quantum circuit LEFT ══ -->
-  <g opacity="0.12" stroke="#58a6ff" fill="none" stroke-width="1">
-    <line x1="25" y1="55" x2="25" y2="155"/>
-    <line x1="55" y1="55" x2="55" y2="155"/>
-    <line x1="85" y1="55" x2="85" y2="155"/>
-    <!-- H gate -->
-    <rect x="17" y="70" width="16" height="16" rx="2"/>
-    <text x="25" y="82" text-anchor="middle" fill="#58a6ff" font-size="9" font-family="monospace">H</text>
-    <!-- CNOT -->
-    <circle cx="55" cy="78" r="5"/><circle cx="55" cy="78" r="1.5" fill="#58a6ff"/>
-    <line x1="55" y1="78" x2="85" y2="78"/>
-    <circle cx="85" cy="78" r="6"/><line x1="85" y1="72" x2="85" y2="84"/><line x1="79" y1="78" x2="91" y2="78"/>
-    <!-- Z gate -->
-    <rect x="17" y="105" width="16" height="16" rx="2"/>
-    <text x="25" y="117" text-anchor="middle" fill="#58a6ff" font-size="9" font-family="monospace">Z</text>
-    <!-- Measurement -->
-    <rect x="47" y="105" width="16" height="16" rx="2"/>
-    <path d="M50,117 Q55,109 60,117" stroke-width="0.8"/>
-    <!-- T gate -->
-    <rect x="77" y="105" width="16" height="16" rx="2"/>
-    <text x="85" y="117" text-anchor="middle" fill="#58a6ff" font-size="9" font-family="monospace">T</text>
-    <!-- Ket labels -->
-    <text x="10" y="80" fill="#58a6ff" font-size="8" font-family="monospace" opacity="0.6">|0⟩</text>
-    <text x="10" y="115" fill="#58a6ff" font-size="8" font-family="monospace" opacity="0.6">|1⟩</text>
-  </g>
+  <!-- ═══ Minimal floating dots — like dust in sunlight ═══ -->
+  <circle cx="180" cy="60" r="1.5" fill="#58a6ff" opacity="0.25">
+    <animate attributeName="cy" values="60;50;60" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.25;0.08;0.25" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="660" cy="55" r="1" fill="#bc8cff" opacity="0.2">
+    <animate attributeName="cy" values="55;48;55" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="190" r="1.2" fill="#58a6ff" opacity="0.15">
+    <animate attributeName="cy" values="190;183;190" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="530" cy="185" r="1" fill="#bc8cff" opacity="0.18">
+    <animate attributeName="cy" values="185;178;185" dur="5.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="90" cy="170" r="0.8" fill="#3fb950" opacity="0.15">
+    <animate attributeName="cy" values="170;164;170" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="750" cy="175" r="1.2" fill="#3fb950" opacity="0.12">
+    <animate attributeName="cy" values="175;168;175" dur="6.5s" repeatCount="indefinite"/>
+  </circle>
 
-  <!-- ══ Quantum circuit RIGHT ══ -->
-  <g opacity="0.12" stroke="#bc8cff" fill="none" stroke-width="1">
-    <line x1="755" y1="55" x2="755" y2="155"/>
-    <line x1="785" y1="55" x2="785" y2="155"/>
-    <line x1="815" y1="55" x2="815" y2="155"/>
-    <!-- X gate -->
-    <rect x="747" y="70" width="16" height="16" rx="2"/>
-    <text x="755" y="82" text-anchor="middle" fill="#bc8cff" font-size="9" font-family="monospace">X</text>
-    <!-- Swap -->
-    <line x1="780" y1="73" x2="790" y2="83"/><line x1="790" y1="73" x2="780" y2="83"/>
-    <line x1="810" y1="73" x2="820" y2="83"/><line x1="820" y1="73" x2="810" y2="83"/>
-    <line x1="785" y1="78" x2="815" y2="78" stroke-dasharray="2,2"/>
-    <!-- RY gate -->
-    <rect x="747" y="105" width="16" height="16" rx="2"/>
-    <text x="755" y="117" text-anchor="middle" fill="#bc8cff" font-size="8" font-family="monospace">Ry</text>
-    <!-- CNOT -->
-    <circle cx="785" cy="113" r="5"/><circle cx="785" cy="113" r="1.5" fill="#bc8cff"/>
-    <line x1="785" y1="113" x2="815" y2="113"/>
-    <circle cx="815" cy="113" r="6"/><line x1="815" y1="107" x2="815" y2="119"/><line x1="809" y1="113" x2="821" y2="113"/>
-    <!-- Ket labels -->
-    <text x="822" y="80" fill="#bc8cff" font-size="8" font-family="monospace" opacity="0.6">⟨0|</text>
-    <text x="822" y="115" fill="#bc8cff" font-size="8" font-family="monospace" opacity="0.6">⟨ψ|</text>
-  </g>
-
-  <!-- Floating particles -->
-  <use href="#p" x="130" y="40"><animate attributeName="y" values="40;28;40" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;0.15;0.5" dur="4s" repeatCount="indefinite"/></use>
-  <use href="#p" x="710" y="50"><animate attributeName="y" values="50;62;50" dur="3.2s" repeatCount="indefinite"/></use>
-  <use href="#p" x="220" y="210"><animate attributeName="y" values="210;198;210" dur="5s" repeatCount="indefinite"/></use>
-  <use href="#p" x="620" y="220"><animate attributeName="y" values="220;230;220" dur="3.8s" repeatCount="indefinite"/></use>
-  <use href="#p" x="350" y="35"><animate attributeName="y" values="35;25;35" dur="4.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.6;0.3" dur="4.5s" repeatCount="indefinite"/></use>
-  <use href="#p" x="490" y="42"><animate attributeName="y" values="42;34;42" dur="3.6s" repeatCount="indefinite"/></use>
-  <use href="#p" x="160" y="170"><animate attributeName="y" values="170;160;170" dur="4.2s" repeatCount="indefinite"/></use>
-  <use href="#p" x="680" y="165"><animate attributeName="y" values="165;175;165" dur="3.9s" repeatCount="indefinite"/></use>
-
-  <!-- ══ BOOT SEQUENCE TEXT ══ -->
-  <text x="420" y="42" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#8b949e" opacity="0.5">
-    [BOOT] loading modules... ████████████████████ OK
+  <!-- ═══ Name ═══ -->
+  <text x="420" y="88" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',sans-serif" font-size="48" font-weight="300" fill="#e6edf3" letter-spacing="8" opacity="0.95">
+    santapong
   </text>
 
-  <!-- Main name -->
-  <text x="420" y="98" text-anchor="middle" font-family="'Courier New',monospace" font-size="52" font-weight="bold" fill="url(#nameGrad)" filter="url(#glow)" letter-spacing="6">
-    SANTAPONG
-  </text>
-
-  <!-- Subtitle -->
-  <text x="420" y="132" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" fill="#c9d1d9" letter-spacing="2">
-    SOFTWARE ENGINEER  ·  AUTOMATION ARCHITECT  ·  QUANTUM EXPLORER
-  </text>
-  <!-- Blinking cursor -->
-  <rect x="652" y="120" width="8" height="14" fill="#00ff41" filter="url(#softGlow)">
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  <!-- ═══ Accent line — breathing ═══ -->
+  <rect x="370" y="105" width="100" height="2" rx="1" fill="url(#accent)" opacity="0.6">
+    <animate attributeName="width" values="100;60;100" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="370;390;370" dur="6s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Separator line -->
-  <line x1="200" y1="155" x2="640" y2="155" stroke="#30363d" stroke-width="0.5"/>
+  <!-- ═══ Subtitle ═══ -->
+  <text x="420" y="140" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#8b949e" letter-spacing="3" opacity="0.7">
+    software engineer  ·  automation  ·  quantum
+  </text>
 
-  <!-- Location / status tags -->
-  <g font-family="'Courier New',monospace" font-size="11">
-    <rect x="185" y="168" width="100" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
-    <text x="235" y="183" text-anchor="middle" fill="#8b949e">📍 Thailand</text>
+  <!-- ═══ Status line — understated ═══ -->
+  <text x="420" y="190" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#484f58">
+    thailand  ·  building things quietly  ·  ☕
+  </text>
 
-    <rect x="300" y="168" width="110" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
-    <text x="355" y="183" text-anchor="middle" fill="#3fb950">⚡ Online</text>
-
-    <rect x="425" y="168" width="90" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
-    <text x="470" y="183" text-anchor="middle" fill="#8b949e">☕ ×  ∞</text>
-
-    <rect x="530" y="168" width="125" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
-    <text x="593" y="183" text-anchor="middle" fill="#58a6ff">🛠️ Building</text>
-  </g>
-
-  <!-- Scan line -->
-  <rect width="840" height="3" fill="url(#scanLine)">
-    <animate attributeName="y" from="-3" to="280" dur="5s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Bottom waveform decoration -->
-  <g opacity="0.08" stroke="#00ff41" stroke-width="1" fill="none">
-    <path d="M0,250 Q105,240 210,250 T420,250 T630,250 T840,250">
-      <animate attributeName="d" values="M0,250 Q105,240 210,250 T420,250 T630,250 T840,250;M0,250 Q105,260 210,250 T420,250 T630,250 T840,250;M0,250 Q105,240 210,250 T420,250 T630,250 T840,250" dur="4s" repeatCount="indefinite"/>
-    </path>
-    <path d="M0,255 Q105,265 210,255 T420,255 T630,255 T840,255">
-      <animate attributeName="d" values="M0,255 Q105,265 210,255 T420,255 T630,255 T840,255;M0,255 Q105,245 210,255 T420,255 T630,255 T840,255;M0,255 Q105,265 210,255 T420,255 T630,255 T840,255" dur="3.5s" repeatCount="indefinite"/>
-    </path>
-  </g>
+  <!-- ═══ Subtle border — single pixel, barely there ═══ -->
+  <rect x="0.5" y="0.5" width="839" height="239" rx="16" fill="none" stroke="#21262d" stroke-width="1"/>
 </svg>
 
 <br/>
 
-<!-- Social badges row -->
-[![Profile Views](https://komarev.com/ghpvc/?username=santapong&color=00ff41&style=flat-square&label=VISITORS)](https://github.com/santapong)
+<!-- Social badges -->
+[![Profile Views](https://komarev.com/ghpvc/?username=santapong&color=58a6ff&style=flat-square&label=visitors)](https://github.com/santapong)
 &nbsp;&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
 &nbsp;&nbsp;
-[![Email](https://img.shields.io/badge/EMAIL-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+[![Email](https://img.shields.io/badge/email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:your-email@example.com)
 &nbsp;&nbsp;
-[![YouTube](https://img.shields.io/badge/YOUTUBE-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/@YOUR_CHANNEL)
+[![YouTube](https://img.shields.io/badge/youtube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/@YOUR_CHANNEL)
 
 </div>
 
-<!-- ═══════════════ ANIMATED DIVIDER ═══════════════ -->
+<!-- ═══════════════ DIVIDER ═══════════════ -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0e17,30:161b22,70:161b22,100:0a0e17&height=1"/>
 
 <br/>
@@ -697,7 +596,7 @@ class Santapong:
  ║   ▸ Rarity:  Uncommon                       ║
  ║   ▸ Reward:  My production formulas         ║
  ║                                              ║
- ║     output    = mass coffee × (1 - sleep)     ║
+ ║     output    = coffee × (1 - sleep)        ║
  ║     bugs      = 1 / (tests_written + 1)     ║
  ║     deadlines = ∞ × optimism                ║
  ║                                              ║
@@ -738,7 +637,6 @@ class Santapong:
   <text x="220" y="182" text-anchor="middle" font-family="monospace" font-size="10" fill="#3fb950">
     That's it. No more. Go build something. 🚀
   </text>
-  <!-- Floating sparkles -->
   <circle cx="60" cy="100" r="2" fill="#00ff41" opacity="0.4">
     <animate attributeName="cy" values="100;90;100" dur="2s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.4;0.1;0.4" dur="2s" repeatCount="indefinite"/>
@@ -773,39 +671,35 @@ class Santapong:
 
 <br/>
 
-<!-- ═══════════════ ANIMATED SVG FOOTER ═══════════════ -->
+<!-- ═══════════════ ANIMATED FOOTER ═══════════════ -->
 <div align="center">
-<svg width="840" height="70" xmlns="http://www.w3.org/2000/svg">
+<svg width="840" height="60" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="footBg" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="ftBg" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#0a0e17"/>
       <stop offset="50%" stop-color="#0d1117"/>
       <stop offset="100%" stop-color="#0a0e17"/>
     </linearGradient>
-    <linearGradient id="footLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.5">
-        <animate attributeName="offset" values="0.2;0.5;0.8;0.5;0.2" dur="4s" repeatCount="indefinite"/>
+    <linearGradient id="ftLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0">
+        <animate attributeName="stop-opacity" values="0;0.3;0" dur="4s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#bc8cff" stop-opacity="0.3">
+        <animate attributeName="stop-opacity" values="0.3;0;0.3" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0">
+        <animate attributeName="stop-opacity" values="0;0.3;0" dur="4s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
   </defs>
-  <rect width="840" height="70" fill="url(#footBg)" rx="12"/>
-  <line x1="40" y1="1" x2="800" y2="1" stroke="url(#footLine)" stroke-width="1"/>
-  <!-- Waveform -->
-  <g opacity="0.12" stroke="#00ff41" fill="none" stroke-width="1">
-    <path d="M30,35 Q130,25 230,35 T430,35 T630,35 T830,35">
-      <animate attributeName="d" values="M30,35 Q130,25 230,35 T430,35 T630,35 T830,35;M30,35 Q130,45 230,35 T430,35 T630,35 T830,35;M30,35 Q130,25 230,35 T430,35 T630,35 T830,35" dur="4s" repeatCount="indefinite"/>
-    </path>
-    <path d="M30,40 Q130,50 230,40 T430,40 T630,40 T830,40">
-      <animate attributeName="d" values="M30,40 Q130,50 230,40 T430,40 T630,40 T830,40;M30,40 Q130,30 230,40 T430,40 T630,40 T830,40;M30,40 Q130,50 230,40 T430,40 T630,40 T830,40" dur="3.5s" repeatCount="indefinite"/>
-    </path>
-  </g>
-  <text x="420" y="30" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">
-    visitor.count++  ·  thanks for stopping by
+  <rect width="840" height="60" fill="url(#ftBg)" rx="12"/>
+  <rect x="0.5" y="0.5" width="839" height="59" rx="12" fill="none" stroke="#21262d" stroke-width="0.5"/>
+  <line x1="80" y1="2" x2="760" y2="2" stroke="url(#ftLine)" stroke-width="1"/>
+  <text x="420" y="28" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',sans-serif" font-size="12" fill="#484f58" letter-spacing="2">
+    thanks for stopping by
   </text>
-  <text x="420" y="50" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#00ff41">
-    connection.close() ☕
+  <text x="420" y="48" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#8b949e">
+    ☕ · built quietly from thailand
   </text>
 </svg>
 </div>
