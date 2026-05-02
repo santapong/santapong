@@ -8,7 +8,7 @@
 
 **Software Engineer** · Ennovie Co., Ltd · Thailand
 
-Building AI agents, quantum experiments, and production systems for jewelry manufacturing.
+Designing AI agents, quantum systems, and production-grade platforms for jewelry manufacturing.
 
 <br/>
 
@@ -22,7 +22,9 @@ Building AI agents, quantum experiments, and production systems for jewelry manu
 
 ### About
 
-Engineer on the **Digital Platforms & Automation** team at Ennovie — a jewelry manufacturer in Thailand. I build AI agents for operational tasks, production scheduling systems, and data pipelines. Outside of work, I run a small Kubernetes home lab (3× Beelink EQ13) and study quantum computing toward an **MSc by 2027**.
+I work on the **Digital Platforms & Automation** team at Ennovie, a jewelry manufacturer in Thailand, where I design AI agents for operational workflows, production scheduling systems, and end-to-end data pipelines. Outside of work I operate a small Kubernetes home lab (3× Beelink EQ13) and study quantum computing toward an **MSc by 2027**.
+
+My focus is shipping pragmatic systems: ones that hold up in production, integrate cleanly with existing infrastructure, and earn their complexity.
 
 > *cheap + best = ship it · expensive + marginal = pass*
 
@@ -30,55 +32,343 @@ Engineer on the **Digital Platforms & Automation** team at Ennovie — a jewelry
 
 ### Featured Projects
 
-**AI & Agents**
+Click any project to expand its description, stack, and current status.
 
-| Repository | Description |
-|:--|:--|
-| [Nexus](https://github.com/santapong/Nexus) | Multi-agent platform — every department staffed by AI, communicating over Kafka with persistent memory and MCP tools |
-| [shopping-agent](https://github.com/santapong/shopping-agent) | AI shopping agent using Google's Universal Commerce Protocol and Claude |
-| [capstone-project](https://github.com/santapong/capstone-project) | Agentic RAG system for Automation Engineering knowledge at KMITL |
-| [Research](https://github.com/santapong/Research) | AI platform converting text/sketches/images into 3D CAD models for jewelry manufacturing |
-| [School](https://github.com/santapong/School) | Lightweight LLM training toolkit for tool-calling — LoRA/QLoRA fine-tuning for Qwen, Llama, Mistral |
+#### AI & Agents
 
-**Quantum Computing**
+<details>
+<summary><b>Nexus</b> — Multi-agent platform with every department staffed by AI</summary>
 
-| Repository | Description |
-|:--|:--|
-| [TTQ](https://github.com/santapong/TTQ) | Seq2seq Transformer translating natural language into quantum circuits via Qiskit |
-| [CaaS-Q](https://github.com/santapong/CaaS-Q) | Quantum microservices — text embedding in Hilbert spaces with parameterized circuits and overlap fidelity ranking |
-| [MedQCNN](https://github.com/santapong/MedQCNN) | Hybrid quantum-classical neural network for medical image classification on Raspberry Pi 5 clusters |
-| [QRS-project](https://github.com/santapong/QRS-project) | Web-based quantum circuit simulator with event-driven microservices architecture |
-| [Quantum-Daily](https://github.com/santapong/Quantum-Daily) | Daily quantum katas in Rust, Mojo, and Python — bridging theory and HPC |
+<br/>
 
-**DevOps & Infrastructure**
+A distributed agent platform where each "department" is an autonomous AI worker communicating over Kafka. Agents share persistent memory, expose capabilities through MCP tools, and coordinate long-running workflows without a central orchestrator.
 
-| Repository | Description |
-|:--|:--|
-| [Cooker](https://github.com/santapong/Cooker) | Graph-based CI/CD tool — visual pipeline builder for OCI images and K8s deployments |
-| [AI-OS](https://github.com/santapong/AI-OS) | Debian-based Linux distro optimized for AI-agentic workloads |
-| [KeepSave](https://github.com/santapong/KeepSave) | Secure env variable storage and promotion for AI agents and dev teams |
-| [MCP-Pack](https://github.com/santapong/MCP-Pack) | Collection of MCP servers for developer utility tools |
-| [Mr-Research](https://github.com/santapong/Mr-Research) | Self-hosted web scraping & search — alternative to Brave Search API and Tavily |
+- **Stack:** Python · Kafka · MCP · Vector DB · Postgres
+- **Highlights:** event-driven architecture, persistent agent memory, pluggable tool registry
+- **Status:** Active development
+- **Repo:** [santapong/Nexus](https://github.com/santapong/Nexus)
 
-**Robotics & Hardware**
+</details>
 
-| Repository | Description |
-|:--|:--|
-| [Muninn](https://github.com/santapong/Muninn) | Autonomous drone on Raspberry Pi Pico W — PID baseline migrating to LQG control |
-| [Trajectory](https://github.com/santapong/Trajectory) | RRT/RRT* pathing for CNC jewelry manufacturing (filing & polishing) |
-| [Drone-Simulation](https://github.com/santapong/Drone-Simulation) | Browser-based drone simulation for training — deploys to real drones via MAVLink/DJI SDK |
-| [watch](https://github.com/santapong/watch) | Real-time object detection and tracking with OpenCV and deep learning |
-| [RFID_Project_2024](https://github.com/santapong/RFID_Project_2024) | Raspberry Pi RFID/barcode system with Flask dashboard for load/unload monitoring |
+<details>
+<summary><b>shopping-agent</b> — Conversational shopping over Google's Universal Commerce Protocol</summary>
 
-**Web & Applications**
+<br/>
 
-| Repository | Description |
-|:--|:--|
-| [Aegis](https://github.com/santapong/Aegis) | AI-driven financial OS — automated task generation, Gantt forecasting, cash flow visualization |
-| [Petroleum-tracking](https://github.com/santapong/Petroleum-tracking) | Full supply chain petroleum tracking for Thailand (bilingual TH/EN) |
-| [Rust-AI-Web-UI](https://github.com/santapong/Rust-AI-Web-UI) | High-performance API for ingesting and analyzing long-form narratives with LLM integration |
-| [application-dashboard](https://github.com/santapong/application-dashboard) | Professional dashboard monorepo — core app, testing suites, deployment configs |
-| [resume-blog](https://github.com/santapong/resume-blog) | Medieval-themed portfolio with admin dashboard, scroll animations, and floating embers |
+An AI shopping agent built on Google's Universal Commerce Protocol and Claude. It negotiates product discovery, comparison, and checkout flows through natural conversation while remaining vendor-agnostic.
+
+- **Stack:** TypeScript · Claude · UCP · Next.js
+- **Highlights:** vendor-neutral commerce abstraction, multi-turn negotiation, structured checkout
+- **Repo:** [santapong/shopping-agent](https://github.com/santapong/shopping-agent)
+
+</details>
+
+<details>
+<summary><b>capstone-project</b> — Agentic RAG for KMITL's Automation Engineering knowledge base</summary>
+
+<br/>
+
+A retrieval-augmented agent system that indexes coursework, lab notes, and reference material from KMITL's Automation Engineering program and answers domain questions with cited evidence.
+
+- **Stack:** Python · LangChain · Vector DB · LLM
+- **Highlights:** hierarchical retrieval, citation-aware responses, course-aware context
+- **Repo:** [santapong/capstone-project](https://github.com/santapong/capstone-project)
+
+</details>
+
+<details>
+<summary><b>Research</b> — Text · sketch · image → 3D CAD for jewelry manufacturing</summary>
+
+<br/>
+
+A generative pipeline that takes a designer's text prompt, hand sketch, or reference image and produces parametric 3D CAD models ready for the jewelry production floor.
+
+- **Stack:** Python · Diffusion models · CAD kernels · GPU inference
+- **Highlights:** multi-modal input, manufacturable geometry, designer-in-the-loop workflow
+- **Repo:** [santapong/Research](https://github.com/santapong/Research)
+
+</details>
+
+<details>
+<summary><b>School</b> — Lightweight LLM training toolkit for tool-calling</summary>
+
+<br/>
+
+A focused training toolkit for fine-tuning open-weight LLMs (Qwen, Llama, Mistral) on tool-calling tasks using LoRA and QLoRA. Designed for small teams who need reliable function-calling on commodity hardware.
+
+- **Stack:** Python · PyTorch · Transformers · PEFT
+- **Highlights:** LoRA/QLoRA recipes, tool-calling datasets, reproducible training configs
+- **Repo:** [santapong/School](https://github.com/santapong/School)
+
+</details>
+
+#### Quantum Computing
+
+<details>
+<summary><b>TTQ</b> — Translating natural language into quantum circuits</summary>
+
+<br/>
+
+A seq2seq Transformer that translates plain-English problem descriptions into Qiskit circuits. The goal is to make quantum prototyping accessible without requiring deep gate-level expertise.
+
+- **Stack:** Python · PyTorch · Qiskit · Transformer
+- **Highlights:** custom NL → circuit dataset, gate-aware decoder, executable output
+- **Repo:** [santapong/TTQ](https://github.com/santapong/TTQ)
+
+</details>
+
+<details>
+<summary><b>CaaS-Q</b> — Quantum microservices for text embeddings in Hilbert space</summary>
+
+<br/>
+
+A microservices platform that embeds text into Hilbert spaces using parameterized circuits and ranks results by overlap fidelity. Explores whether quantum representations can outperform classical embeddings on similarity tasks.
+
+- **Stack:** Python · Qiskit · FastAPI · Docker
+- **Highlights:** parameterized circuit embeddings, fidelity-based ranking, REST API
+- **Repo:** [santapong/CaaS-Q](https://github.com/santapong/CaaS-Q)
+
+</details>
+
+<details>
+<summary><b>MedQCNN</b> — Hybrid quantum-classical CNN on Raspberry Pi 5 clusters</summary>
+
+<br/>
+
+A hybrid quantum-classical neural network targeting medical image classification. Runs on a cluster of Raspberry Pi 5 nodes to study edge-deployable quantum-inspired models.
+
+- **Stack:** Python · PennyLane · PyTorch · Raspberry Pi 5
+- **Highlights:** hybrid Q-C architecture, edge inference, medical imaging benchmarks
+- **Repo:** [santapong/MedQCNN](https://github.com/santapong/MedQCNN)
+
+</details>
+
+<details>
+<summary><b>QRS-project</b> — Web-based quantum circuit simulator</summary>
+
+<br/>
+
+A browser-based quantum circuit simulator built on an event-driven microservices backend. Lets users compose circuits visually and see real-time state evolution.
+
+- **Stack:** TypeScript · React · Python · NATS/Kafka
+- **Highlights:** real-time simulation, drag-and-drop circuit builder, multi-tenant backend
+- **Repo:** [santapong/QRS-project](https://github.com/santapong/QRS-project)
+
+</details>
+
+<details>
+<summary><b>Quantum-Daily</b> — Daily quantum katas in Rust, Mojo, and Python</summary>
+
+<br/>
+
+Short daily exercises that connect quantum theory to high-performance computing across three languages. A long-running discipline in keeping fundamentals sharp.
+
+- **Stack:** Rust · Mojo · Python
+- **Highlights:** cross-language katas, HPC-oriented implementations, theory ↔ practice bridge
+- **Repo:** [santapong/Quantum-Daily](https://github.com/santapong/Quantum-Daily)
+
+</details>
+
+#### DevOps & Infrastructure
+
+<details>
+<summary><b>Cooker</b> — Visual graph-based CI/CD for OCI images and Kubernetes</summary>
+
+<br/>
+
+A graph-based CI/CD tool with a visual pipeline builder. Targets OCI image builds and Kubernetes deployments without YAML sprawl.
+
+- **Stack:** Go · React · Kubernetes · OCI
+- **Highlights:** node-graph pipelines, K8s-native deploys, no-YAML editing
+- **Repo:** [santapong/Cooker](https://github.com/santapong/Cooker)
+
+</details>
+
+<details>
+<summary><b>AI-OS</b> — Debian-based Linux distro for AI-agentic workloads</summary>
+
+<br/>
+
+A Debian-derived distribution preconfigured for running AI agents — GPU drivers, runtime stacks, agent frameworks, and observability tooling installed out of the box.
+
+- **Stack:** Debian · Bash · Ansible · CUDA
+- **Highlights:** opinionated agent runtime, preconfigured observability, reproducible images
+- **Repo:** [santapong/AI-OS](https://github.com/santapong/AI-OS)
+
+</details>
+
+<details>
+<summary><b>KeepSave</b> — Secure env variable storage and promotion for agents and teams</summary>
+
+<br/>
+
+A secrets and environment management service designed for AI agents and small dev teams. Handles secure storage, scoped access, and promotion across environments.
+
+- **Stack:** Go · Postgres · Vault-style crypto
+- **Highlights:** scoped secrets, environment promotion, agent-friendly API
+- **Repo:** [santapong/KeepSave](https://github.com/santapong/KeepSave)
+
+</details>
+
+<details>
+<summary><b>MCP-Pack</b> — A curated collection of MCP servers for developer utilities</summary>
+
+<br/>
+
+A growing collection of Model Context Protocol servers covering common developer needs — file ops, search, code intelligence, and more.
+
+- **Stack:** TypeScript · Python · MCP
+- **Highlights:** plug-and-play MCP servers, dev-tool focus, modular packaging
+- **Repo:** [santapong/MCP-Pack](https://github.com/santapong/MCP-Pack)
+
+</details>
+
+<details>
+<summary><b>Mr-Research</b> — Self-hosted web scraping and search</summary>
+
+<br/>
+
+A self-hosted alternative to commercial search APIs (Brave Search, Tavily). Combines targeted scraping, indexing, and ranking for research workflows.
+
+- **Stack:** Python · Playwright · Elasticsearch
+- **Highlights:** self-hosted, agent-friendly search, configurable crawlers
+- **Repo:** [santapong/Mr-Research](https://github.com/santapong/Mr-Research)
+
+</details>
+
+#### Robotics & Hardware
+
+<details>
+<summary><b>Muninn</b> — Autonomous drone on Raspberry Pi Pico W</summary>
+
+<br/>
+
+An autonomous drone built around the Raspberry Pi Pico W. Currently flying on a PID baseline, with active migration to LQG control for better disturbance rejection.
+
+- **Stack:** C/C++ · MicroPython · RPi Pico W · MAVLink
+- **Highlights:** PID → LQG migration, low-cost flight controller, embedded estimation
+- **Repo:** [santapong/Muninn](https://github.com/santapong/Muninn)
+
+</details>
+
+<details>
+<summary><b>Trajectory</b> — RRT/RRT* pathing for CNC jewelry manufacturing</summary>
+
+<br/>
+
+Sampling-based motion planners (RRT and RRT*) tuned for CNC filing and polishing of jewelry parts. Reduces tool-path generation time on complex geometries.
+
+- **Stack:** Python · NumPy · CAD/CAM
+- **Highlights:** RRT/RRT* implementations, CNC-aware constraints, jewelry-specific tuning
+- **Repo:** [santapong/Trajectory](https://github.com/santapong/Trajectory)
+
+</details>
+
+<details>
+<summary><b>Drone-Simulation</b> — Browser-based drone training that deploys to real hardware</summary>
+
+<br/>
+
+A browser-based simulator for drone training. Models trained in simulation deploy to real drones via MAVLink and the DJI SDK.
+
+- **Stack:** TypeScript · Three.js · MAVLink · DJI SDK
+- **Highlights:** sim-to-real pipeline, in-browser training, MAVLink/DJI bridge
+- **Repo:** [santapong/Drone-Simulation](https://github.com/santapong/Drone-Simulation)
+
+</details>
+
+<details>
+<summary><b>watch</b> — Real-time object detection and tracking</summary>
+
+<br/>
+
+A real-time object detection and tracking pipeline using OpenCV and modern detector backbones. Tuned for low-latency inference on commodity hardware.
+
+- **Stack:** Python · OpenCV · PyTorch
+- **Highlights:** real-time tracking, configurable backbones, low-latency inference
+- **Repo:** [santapong/watch](https://github.com/santapong/watch)
+
+</details>
+
+<details>
+<summary><b>RFID_Project_2024</b> — RFID/barcode load monitoring with a Flask dashboard</summary>
+
+<br/>
+
+A Raspberry Pi system that reads RFID tags and barcodes for load/unload tracking, surfaced through a Flask dashboard.
+
+- **Stack:** Python · Flask · Raspberry Pi · RFID/Barcode
+- **Highlights:** real-time event capture, web dashboard, low-cost hardware
+- **Repo:** [santapong/RFID_Project_2024](https://github.com/santapong/RFID_Project_2024)
+
+</details>
+
+#### Web & Applications
+
+<details>
+<summary><b>Aegis</b> — AI-driven financial OS</summary>
+
+<br/>
+
+A financial operations platform that uses AI to generate tasks automatically, forecast progress on Gantt timelines, and visualize cash flow.
+
+- **Stack:** TypeScript · Next.js · Postgres · LLM
+- **Highlights:** automated task generation, Gantt forecasting, cash-flow visualization
+- **Repo:** [santapong/Aegis](https://github.com/santapong/Aegis)
+
+</details>
+
+<details>
+<summary><b>Petroleum-tracking</b> — Bilingual (TH/EN) supply-chain tracking for petroleum</summary>
+
+<br/>
+
+End-to-end supply-chain tracking for petroleum logistics in Thailand. Bilingual (Thai/English) UI with role-aware dashboards.
+
+- **Stack:** TypeScript · Next.js · Postgres
+- **Highlights:** bilingual UX, full-chain visibility, role-based dashboards
+- **Repo:** [santapong/Petroleum-tracking](https://github.com/santapong/Petroleum-tracking)
+
+</details>
+
+<details>
+<summary><b>Rust-AI-Web-UI</b> — High-performance API for long-form narrative analysis</summary>
+
+<br/>
+
+A Rust-backed API for ingesting and analyzing long-form narratives with LLM integration. Designed for throughput on large documents.
+
+- **Stack:** Rust · Axum · LLM
+- **Highlights:** high-throughput ingestion, streaming analysis, LLM-aware chunking
+- **Repo:** [santapong/Rust-AI-Web-UI](https://github.com/santapong/Rust-AI-Web-UI)
+
+</details>
+
+<details>
+<summary><b>application-dashboard</b> — Production dashboard monorepo</summary>
+
+<br/>
+
+A professional dashboard monorepo containing the core application, testing suites, and deployment configurations as a single coherent unit.
+
+- **Stack:** TypeScript · Turborepo · Next.js · CI/CD
+- **Highlights:** monorepo layout, integrated test suites, deploy configs included
+- **Repo:** [santapong/application-dashboard](https://github.com/santapong/application-dashboard)
+
+</details>
+
+<details>
+<summary><b>resume-blog</b> — Medieval-themed portfolio with admin dashboard</summary>
+
+<br/>
+
+A portfolio site with a medieval visual theme, an admin dashboard, scroll-driven animations, and floating embers.
+
+- **Stack:** TypeScript · Next.js · Tailwind · Framer Motion
+- **Highlights:** custom theme, admin CMS, scroll animations
+- **Repo:** [santapong/resume-blog](https://github.com/santapong/resume-blog)
+
+</details>
 
 ---
 
