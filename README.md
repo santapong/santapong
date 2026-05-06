@@ -6,9 +6,9 @@
 
 # Santapong Sondhi
 
-**Software Engineer** · Ennovie Co., Ltd · Thailand
+**Software Engineer · MSc Quantum Computing** · Thailand
 
-Designing AI agents, quantum systems, and production-grade platforms for jewelry manufacturing.
+Building AI agents, quantum systems, and production-grade platforms.
 
 <br/>
 
@@ -22,7 +22,7 @@ Designing AI agents, quantum systems, and production-grade platforms for jewelry
 
 ### About
 
-I work on the **Digital Platforms & Automation** team at Ennovie, a jewelry manufacturer in Thailand, where I design AI agents for operational workflows, production scheduling systems, and end-to-end data pipelines. Outside of work I operate a small Kubernetes home lab (3× Beelink EQ13) and study quantum computing toward an **MSc by 2027**.
+I build AI agents, distributed systems, and quantum prototypes. Currently pursuing an **MSc in Quantum Computing** (target 2027), with active work across multi-agent platforms, agentic commerce, quantum circuit translation, and applied robotics.
 
 My focus is shipping pragmatic systems: ones that hold up in production, integrate cleanly with existing infrastructure, and earn their complexity.
 
@@ -77,11 +77,11 @@ A retrieval-augmented agent system that indexes coursework, lab notes, and refer
 </details>
 
 <details>
-<summary><b>Research</b> — Text · sketch · image → 3D CAD for jewelry manufacturing</summary>
+<summary><b>Research</b> — Text · sketch · image → 3D CAD</summary>
 
 <br/>
 
-A generative pipeline that takes a designer's text prompt, hand sketch, or reference image and produces parametric 3D CAD models ready for the jewelry production floor.
+A generative pipeline that takes a designer's text prompt, hand sketch, or reference image and produces parametric 3D CAD models ready for manufacturing.
 
 - **Stack:** Python · Diffusion models · CAD kernels · GPU inference
 - **Highlights:** multi-modal input, manufacturable geometry, designer-in-the-loop workflow
@@ -252,14 +252,14 @@ An autonomous drone built around the Raspberry Pi Pico W. Currently flying on a 
 </details>
 
 <details>
-<summary><b>Trajectory</b> — RRT/RRT* pathing for CNC jewelry manufacturing</summary>
+<summary><b>Trajectory</b> — RRT/RRT* pathing for CNC manufacturing</summary>
 
 <br/>
 
-Sampling-based motion planners (RRT and RRT*) tuned for CNC filing and polishing of jewelry parts. Reduces tool-path generation time on complex geometries.
+Sampling-based motion planners (RRT and RRT*) tuned for CNC filing and polishing of intricate parts. Reduces tool-path generation time on complex geometries.
 
 - **Stack:** Python · NumPy · CAD/CAM
-- **Highlights:** RRT/RRT* implementations, CNC-aware constraints, jewelry-specific tuning
+- **Highlights:** RRT/RRT* implementations, CNC-aware constraints, geometry-specific tuning
 - **Repo:** [santapong/Trajectory](https://github.com/santapong/Trajectory)
 
 </details>
@@ -402,9 +402,9 @@ A portfolio site with a medieval visual theme, an admin dashboard, scroll-driven
 
 ### Education
 
-**KMITL** — B.Eng. Mechatronics & Automation Engineering
+**MSc Quantum Computing** — *in progress · target 2027*
 
-**Next** — MSc Quantum Computing *(2027)*
+**KMITL** — B.Eng. Mechatronics & Automation Engineering
 
 ---
 
