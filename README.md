@@ -163,6 +163,7 @@ An autonomous drone built around the Raspberry Pi Pico W. Currently flying on a 
 | **Data** | Postgres · Kafka · Elasticsearch |
 | **Infra** | Docker · Kubernetes · GitHub Actions · Linux · Microsoft Fabric |
 | **Hardware** | Raspberry Pi · MAVLink · DJI SDK · MicroPython |
+| **Industrial Robotics** | RobotMaster · RobotStudio · offline programming · CAM toolpaths |
 
 <details>
 <summary><i>Or as badges</i></summary>
