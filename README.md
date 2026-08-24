@@ -2,21 +2,13 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:8A2BE2,50:4B0082,100:0B0D17&section=header&text=SANTAPONG%20SONDHI&fontSize=38&fontColor=E6E6FA&fontAlignY=35&desc=engineer%20of%20qubits%20·%20tamer%20of%20drones%20·%20orchestrator%20of%20agents&descSize=16&descAlignY=58&animation=fadeIn" alt="cosmic banner" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:8A2BE2,50:4B0082,100:0B0D17&section=header&text=SANTAPONG%20SONDHI&fontSize=38&fontColor=E6E6FA&fontAlignY=35&desc=giving%20bodies%20to%20minds%20%C2%B7%20giving%20minds%20to%20bodies&descSize=17&descAlignY=56&animation=fadeIn" alt="cosmic banner" />
 
-<!-- orbital signature -->
-```
-        ✦            *                  .        ✧
-   .      ╭─────────────────────────────╮
-          │  ψ |S⟩ = α|0⟩ + β|1⟩         │      ·
-    ✧     │  superposition of engineer,  │
-          │  physicist & builder         │     ✦
-   ·      ╰─────────────────────────────╯  *
-              ⟡  entangled with: AI · quantum · space
-                    .
-```
+**MSc Robotics & Embodied AI** · Software Engineer · Thailand 🇹🇭
 
-`Software Engineer` · `MSc Quantum Computing (in progress)` · `Thailand 🇹🇭`
+*Building at the intersection of LLMs, robots, and the infrastructure that makes them think.*
+
+<br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/santapong-sondhi)
 [![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:santapongsondhi@gmail.com)
@@ -31,35 +23,54 @@
 ```yaml
 identity:
   name: Santapong Sondhi
-  class: Software Engineer × Quantum Researcher
+  class: Engineer × Embodied-AI Researcher
   origin: Bangkok, Thailand
-  trajectory: B.Eng Mechatronics (KMITL) → MSc Quantum Computing (2027)
+  trajectory: B.Eng Mechatronics (KMITL) → MSc Robotics & Embodied AI
 
-current_orbit:
-  - 🛰️ Nexus — distributed multi-agent platform (Kafka + MCP)
-  - 🛩️ Muninn — autonomous drone, PID → LQG control migration
-  - 🎓 thesis — quantum circuit optimization
-
-observable_universe:
-  languages: [Python, TypeScript, Rust, Go, SQL]
-  quantum:   [Qiskit, PennyLane, PyTorch]
-  agents:    [LangChain, Claude, MCP, Vector DBs]
-  web:       [Next.js, React, FastAPI, Axum]
-  infra:     [Docker, Kubernetes, GitHub Actions, Linux]
+research_interests:
+  - 🦾 Cross-embodiment (X-Embodiment) — one policy, many bodies
+  - 🤖 Language-guided manipulation & ROS 2 robotics
+  - 🧠 LLM engineering — observable, deterministic agent orchestration
 ```
 
 <div align="center">
 
-> *"I like to think my code exists in superposition —*
-> *elegant and broken at the same time, until someone runs it."*
+> *"Intelligence is cheap; grounding is hard.*
+> *I build systems where language meets physics."*
 
 </div>
 
 ---
 
-## 🌌 Star Systems (Selected Work)
+## 🌌 Star Systems
 
 <table>
+<tr>
+<td width="50%" valign="top">
+
+### 🦾 RoboLLM
+**X-Embodiment Workbench**
+
+Learning-first robotics lab — Claude drives a real ROS 2 robot through MCP while you drive the same robot from a browser dashboard. Gesture teleop on a Kinova Gen3, hand-following arm, webcam→3D scanner that turns objects into URDF.
+
+`Python` `ROS 2` `MCP` `MuJoCo`
+
+🔗 [github.com/santapong/RoboLLM](https://github.com/santapong/RoboLLM)
+
+</td>
+<td width="50%" valign="top">
+
+### 🌑 Accretion
+**LLM Engineering Lab**
+
+Local-first observable control plane for supervising Codex and Claude Code — deterministic planning, verifier-gated feedback loops, isolated workspaces, durable execution traces. v0.2 released.
+
+`Python` `FastAPI` `React` `PostgreSQL`
+
+🔗 [github.com/santapong/Accretion](https://github.com/santapong/Accretion)
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
@@ -86,55 +97,31 @@ Autonomous drone on a Raspberry Pi Pico W — migrating from PID to LQG optimal 
 
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🤖 RoboLLM
-**The Embodied Mind**
-
-Where large language models meet robotics — reasoning in the physical world.
-
-`Python` `LLMs` `Robotics`
-
-🔗 [github.com/santapong/RoboLLM](https://github.com/santapong/RoboLLM)
-
-</td>
-<td width="50%" valign="top">
-
-### ⚛️ Thesis Research
-**Collapsing the Wavefunction**
-
-Quantum circuit optimization — fewer gates, less decoherence, more signal from noise.
-
-*target 2027*
-
-</td>
-</tr>
 </table>
 
 ---
 
-## 🪐 Quantum Stack — the Standard Model of my tooling
+## ⚛️ The Standard Model of my tooling
 
 | Force | Carrier Particles |
 |---|---|
-| ⚛️ **Strong** — Quantum | Qiskit · PennyLane · PyTorch |
-| 🧠 **Electromagnetic** — AI & Agents | LangChain · Claude · MCP · Vector DBs |
+| 🦾 **Strong** — Robotics | ROS 2 · MuJoCo · PyBullet · MAVLink |
+| 🧠 **Electromagnetic** — LLMs & Agents | LangChain · Claude · MCP · Codex · Vector DBs |
 | 💻 **Weak** — Languages | Python · TypeScript · Rust · Go · SQL |
-| 🌐 **Gravity** — Web & Infra | Next.js · FastAPI · Axum · Docker · K8s |
+| 🌐 **Gravity** — Web & Infra | FastAPI · Next.js · Docker · K8s · Linux |
 
 ---
 
 ## 🚀 Launch Timeline
 
 ```
-2019 ──●── 🎓 Enlists at KMITL (Mechatronics & Automation)
-        \
-2023 ────●─ 🔧 Falls into the agent/robotics rabbit hole
-          \
-2026 ──────●─ 🛰️ Ships Nexus · begins MSc Quantum Computing
-            \
-2027 ─────────✦ 🎯 Thesis on quantum circuit optimization
+KMITL ──●── 🎓 B.Eng Mechatronics & Automation
+         \
+2024 ─────●─ 🤖 Robots, agents & LLM tooling take over the repos
+           \
+2026 ────────●─ 🦾 MSc Robotics & Embodied AI · ships RoboLLM + Accretion v0.2
+              \
+next ───────────✦ 🎯 Cross-embodiment policies that transfer across robot bodies
 ```
 
 ---
@@ -161,8 +148,8 @@ Quantum circuit optimization — fewer gates, less decoherence, more signal from
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=120&color=0:0B0D17,100:8A2BE2&section=footer&text=open%20to%20research%20collabs%20%C2%B7%20MCP%20ecosystem%20%C2%B7%20AI%20infra&fontSize=15&fontColor=E6E6FA&fontAlignY=55&desc=%F0%9F%93%A1%20say%20hi%20anytime%20—%20signals%20travel%20at%20light%20speed&descSize=13&descAlignY=80" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=venom&height=120&color=0:0B0D17,100:8A2BE2&section=footer&text=open%20to%20research%20collabs%20%C2%B7%20embodied%20AI%20%C2%B7%20LLM%20engineering&fontSize=15&fontColor=E6E6FA&fontAlignY=55&desc=%F0%9F%93%A1%20say%20hi%20anytime%20—%20signals%20travel%20at%20light%20speed&descSize=13&descAlignY=80" alt="footer" />
 
 </div>
 
-<!-- ψ measurement complete → wavefunction collapsed to: hello -->
+<!-- end of transmission -->
