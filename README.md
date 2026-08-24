@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=slice&height=280&color=0:0B0D17,30:4B0082,60:8A2BE2,100:C77DFF&section=header&text=SANTAPONG%20SONDHI&fontSize=42&fontColor=F3EFFF&fontAlignY=32&desc=MSc%20Robotics%20%26%20Embodied%20AI%20%C2%B7%20X-Embodiment%20%C2%B7%20LLM%20Engineering&descSize=16&descAlignY=52&animation=twinkling&stroke=E6E6FA&strokeWidth=1" alt="cosmic banner" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=slice&height=280&color=0:0B0D17,30:4B0082,60:8A2BE2,100:C77DFF&section=header&text=SANTAPONG%20SONDHI&fontSize=42&fontColor=F3EFFF&fontAlignY=32&desc=MSc%20Robotics%20%26%20Embodied%20AI%20%C2%B7%20X-Embodiment%20%C2%B7%20LLM%20Engineering&descSize=16&descAlignY=52&animation=twinkling&stroke=E6E6FA&strokeWidth=1" alt="header banner" />
 
 <div align="center">
 
