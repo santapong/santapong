@@ -1,159 +1,54 @@
-<!-- ═══════════════ COSMIC PROFILE ═══════════════ -->
-
 <div align="center">
 
-<img width="100%" src="assets/banner.png" alt="Santapong Sondhi — galaxy banner" />
+![Santapong Sondhi — Software, AI & Robotics Engineer](assets/profile-banner.svg)
 
-<div align="center">
+# Hi, I'm Santapong.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=1400&color=C77DFF&center=true&vCenter=true&random=false&width=560&lines=%F0%9F%A6%BE+One+policy%2C+many+bodies+—+cross-embodiment+research;%F0%9F%A4%96+Teaching+robots+through+language+%28ROS+2+%C2%B7+MCP%29;%F0%9F%A7%A0+Building+observable+minds+for+AI+agents;%E2%9A%9B%EF%B8%8F+Bangkok%2C+Thailand)](https://github.com/santapong)
+**Software, AI & Robotics Engineer · Thailand**
+
+[Portfolio](https://resume.draveniq.dev) · [Field Notes](https://resume.draveniq.dev/blog) · [Resume](https://resume.draveniq.dev/resume) · [LinkedIn](https://www.linkedin.com/in/santapong-sondhi-11176034b) · [Email](mailto:santapongsondhi@gmail.com)
 
 </div>
 
-*Building at the intersection of LLMs, robots, and the infrastructure that makes them think.*
+I build software for intelligent systems, from robot-learning experiments to tools for dependable AI agents and practical products. My background is in automation engineering at KMITL; my research interests center on **robotics, embodied AI, vision-language-action models, and cross-embodiment learning**.
 
-<br/>
+I'm drawn to the point where an idea meets a real constraint: a limited dataset, an unreliable workflow, or a robot that behaves differently from its simulation. I build, measure, and write about what I learn.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/santapong-sondhi-11176034b)
-[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:santapongsondhi@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/santapong)
+## What connects my work
 
-</div>
+- **Robotics & embodied AI:** perception, language-guided manipulation, and learning policies that could transfer across robot bodies. I explore these questions through simulation experiments and robotics tooling.
+- **Agent systems:** making AI-assisted engineering observable and bounded, with explicit approvals, isolated execution, and verification.
+- **Useful products:** turning engineering into software for everyday work, from inventory and cash flow to container delivery.
 
----
+## Selected work
 
-## 🛰️ Mission Log
+| Project | What I'm building |
+| :--- | :--- |
+| **[RoboLLM](https://github.com/santapong/RoboLLM)** | Robotics workbench connecting ROS 2, perception, teleoperation, and simulation. [UR5e VLA experiments](https://github.com/santapong/RoboLLM/tree/experiment/ur5e-vla-bed/sim/vla-bed) study learned control and camera shifts in MuJoCo. |
+| **[Signoff](https://github.com/santapong/signoff/tree/develop)** | Camera measurement and an Evidence Workbench for reviewing visible robot task cycles, original footage, annotations, and qualification reports. Real-station qualification is pending. |
+| **[Accretion](https://github.com/santapong/Accretion)** | A provider-neutral control plane for local coding agents: deterministic planning, verifier-gated loops, isolated Git worktrees, and durable execution traces. |
+| **[StockFlow](https://resume.draveniq.dev/projects/17-stockflow)** | Inventory and cash-flow software for Thai SMEs. The public case study explains the product; the source repository is private. |
+| **[Cooker](https://github.com/santapong/Cooker/tree/develop)** | Self-hosted visual CI/CD pipelines and reviewed GitHub Compose deployments, with a graph for inspecting stages and execution. |
+| **[Proof](https://github.com/santapong/Proof)** | Composable Claude Code skills for governed engineering workflows, from understanding a codebase to review, verification, and delivery. |
 
-```yaml
-identity:
-  name: Santapong Sondhi
-  class: Engineer × Embodied-AI Researcher
-  origin: Bangkok, Thailand
-  trajectory: B.Eng Mechatronics (KMITL) → MSc Robotics & Embodied AI
+The research reading behind the experiments lives in **[xembodiment-lit](https://github.com/santapong/xembodiment-lit)**. **[Trajectory](https://github.com/santapong/Trajectory)** explores robot path planning for jewelry manufacturing. More projects and their context are on my [portfolio](https://resume.draveniq.dev/projects).
 
-research_interests:
-  - 🦾 Cross-embodiment (X-Embodiment) — one policy, many bodies
-  - 🤖 Language-guided manipulation & ROS 2 robotics
-  - 🧠 LLM engineering — observable, deterministic agent orchestration
-```
+## How I work
 
-<div align="center">
+Start with a concrete question. Build the smallest useful system. Keep the inputs, decisions, and results inspectable. Use failures to choose the next experiment.
 
-> *"Intelligence is cheap; grounding is hard.*
-> *I build systems where language meets physics."*
+For robotics, I keep simulation results, hardware readiness, and demonstrated transfer distinct. For agent systems, I care about what actually ran, what was verified, and what needs a human decision.
 
-</div>
+## Tools I work with
 
----
+| Area | Tools |
+| :--- | :--- |
+| Robotics & learning | Python · ROS 2 · MuJoCo · PyTorch |
+| Agents & backend | MCP · FastAPI · Go · PostgreSQL |
+| Products & infrastructure | TypeScript · React · Next.js · Docker · Linux |
 
-## 🌌 Star Systems
+## Let's connect
 
-<table>
-<tr>
-<td width="50%" valign="top">
+I'm interested in conversations and collaborations around **robot learning, embodied AI, cross-embodiment evaluation, and dependable agent systems**.
 
-### 🦾 RoboLLM
-**X-Embodiment Workbench**
-
-Learning-first robotics lab — Claude drives a real ROS 2 robot through MCP while you drive the same robot from a browser dashboard. Gesture teleop on a Kinova Gen3, hand-following arm, webcam→3D scanner that turns objects into URDF.
-
-`Python` `ROS 2` `MCP` `MuJoCo`
-
-🔗 [github.com/santapong/RoboLLM](https://github.com/santapong/RoboLLM)
-
-</td>
-<td width="50%" valign="top">
-
-### 🌑 Accretion
-**LLM Engineering Lab**
-
-Local-first observable control plane for supervising Codex and Claude Code — deterministic planning, verifier-gated feedback loops, isolated workspaces, durable execution traces. v0.2 released.
-
-`Python` `FastAPI` `React` `PostgreSQL`
-
-🔗 [github.com/santapong/Accretion](https://github.com/santapong/Accretion)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🔮 Nexus
-**The Constellation Builder**
-
-Distributed multi-agent platform — autonomous workers coordinating over Kafka with shared memory and MCP tools.
-
-`Python` `Kafka` `MCP` `Postgres`
-
-🔗 [github.com/santapong/Nexus](https://github.com/santapong/Nexus)
-
-</td>
-<td width="50%" valign="top">
-
-### 🛸 Muninn
-**The Odin's Messenger**
-
-Autonomous drone on a Raspberry Pi Pico W — migrating from PID to LQG optimal control.
-
-`C/C++` `MicroPython` `MAVLink`
-
-🔗 [github.com/santapong/Muninn](https://github.com/santapong/Muninn)
-
-</td>
-</tr>
-</table>
-
----
-
-## ⚛️ The Standard Model of my tooling
-
-| Force | Carrier Particles |
-|---|---|
-| 🦾 **Strong** — Robotics | ROS 2 · MuJoCo · PyBullet · MAVLink |
-| 🧠 **Electromagnetic** — LLMs & Agents | LangChain · Claude · MCP · Codex · Vector DBs |
-| 💻 **Weak** — Languages | Python · TypeScript · Rust · Go · SQL |
-| 🌐 **Gravity** — Web & Infra | FastAPI · Next.js · Docker · K8s · Linux |
-
----
-
-## 🚀 Launch Timeline
-
-```
-KMITL ──●── 🎓 B.Eng Mechatronics & Automation
-         \
-2024 ─────●─ 🤖 Robots, agents & LLM tooling take over the repos
-           \
-2026 ────────●─ 🦾 MSc Robotics & Embodied AI · ships RoboLLM + Accretion v0.2
-              \
-next ───────────✦ 🎯 Cross-embodiment policies that transfer across robot bodies
-```
-
----
-
-<details>
-<summary><b>🔭 Deep-field observations (GitHub stats)</b></summary>
-
-<br/>
-
-<div align="center">
-
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=santapong&show_icons=true&hide_border=true&bg_color=00000000&title_color=B39DDB&text_color=c9d1d9&icon_color=8A2BE2" height="165" alt="GitHub stats" />
-<a href="https://github.com/santapong">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=santapong&layout=compact&hide_border=true&bg_color=00000000&title_color=B39DDB&text_color=c9d1d9&langs_count=8" height="165" alt="Top languages" />
-</a>
-
-<img src="https://github-readme-activity-graph-gilt.vercel.app/graph?username=santapong&bg_color=00000000&color=c9d1d9&line=8A2BE2&point=B39DDB&area=true&area_color=8A2BE233&hide_border=true" alt="Activity graph" width="100%" />
-
-</div>
-
-</details>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=venom&height=120&color=0:0B0D17,100:8A2BE2&section=footer&text=open%20to%20research%20collabs%20%C2%B7%20embodied%20AI%20%C2%B7%20LLM%20engineering&fontSize=15&fontColor=E6E6FA&fontAlignY=55&desc=%F0%9F%93%A1%20say%20hi%20anytime%20—%20signals%20travel%20at%20light%20speed&descSize=13&descAlignY=80" alt="footer" />
-
-</div>
-
-<!-- end of transmission -->
+Read the [Field Notes](https://resume.draveniq.dev/blog), explore the [portfolio](https://resume.draveniq.dev), or reach me at **[santapongsondhi@gmail.com](mailto:santapongsondhi@gmail.com)**.

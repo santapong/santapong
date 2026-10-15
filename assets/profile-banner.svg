@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="440" viewBox="0 0 1600 440" role="img" aria-labelledby="title description">
+  <title id="title">Santapong Sondhi — Software, AI &amp; Robotics Engineer</title>
+  <desc id="description">A dark star map connects robotics and embodied AI, agent systems, and products around Santapong's name.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#17152d"/>
+    </linearGradient>
+    <radialGradient id="nebula">
+      <stop stop-color="#8270c0" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#8270c0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#c0b6df" stroke-opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="440" rx="16" fill="url(#background)"/>
+  <rect width="1600" height="440" rx="16" fill="url(#grid)"/>
+  <ellipse cx="1260" cy="230" rx="430" ry="340" fill="url(#nebula)"/>
+  <g fill="none" stroke="#b5a4e1">
+    <circle cx="1340" cy="220" r="155" stroke-opacity=".12"/>
+    <circle cx="1340" cy="220" r="224" stroke-opacity=".08"/>
+    <path d="M1148 332L1257 89L1452 172L1390 362L1148 332L1452 172M1257 89L1390 362" stroke-opacity=".26"/>
+    <path d="M1178 220H1504M1340 56V384" stroke-opacity=".08"/>
+  </g>
+  <g fill="#cbb9ef">
+    <circle cx="1148" cy="332" r="5"/>
+    <circle cx="1257" cy="89" r="5"/>
+    <circle cx="1452" cy="172" r="6"/>
+    <circle cx="1390" cy="362" r="4"/>
+    <circle cx="1340" cy="220" r="8"/>
+  </g>
+  <g fill="#e2d9f8" opacity=".36">
+    <circle cx="67" cy="73" r="1.5"/><circle cx="505" cy="43" r="1"/>
+    <circle cx="1057" cy="72" r="1.5"/><circle cx="1531" cy="57" r="1"/>
+    <circle cx="1548" cy="352" r="1.5"/><circle cx="1011" cy="374" r="1"/>
+    <circle cx="426" cy="389" r="1.5"/><circle cx="64" cy="355" r="1"/>
+    <circle cx="931" cy="129" r="1"/><circle cx="1170" cy="42" r="1"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="96" y="92" fill="#b6a5dc" font-size="18" letter-spacing="4">EXPLORE / BUILD / LEARN</text>
+    <text x="92" y="194" fill="#f3f0fa" font-size="76" font-weight="700" letter-spacing="-2">Santapong Sondhi</text>
+    <text x="96" y="251" fill="#d5cce8" font-size="29">Software, AI &amp; Robotics Engineer</text>
+    <path d="M96 286H192" stroke="#b49bde" stroke-width="2"/>
+    <text x="96" y="333" fill="#bfb1d7" font-size="23">Robotics &amp; Embodied AI · Agent Systems · Products</text>
+    <text x="96" y="387" fill="#8f87a4" font-size="18" letter-spacing="1">THAILAND</text>
+  </g>
+</svg>
