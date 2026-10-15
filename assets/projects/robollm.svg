@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-labelledby="title description">
+  <title id="title">RoboLLM — Perception, language, action</title>
+  <desc id="description">Original conceptual cover with a solid articulated robot arm, a camera viewing cone, a language bubble and a geometric workpiece. The illustration represents robotics interests, not physical hardware or a demonstrated experiment.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#0d1724"/>
+      <stop offset="1" stop-color="#142b43"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#6ca9db" stop-opacity=".17"/>
+      <stop offset="1" stop-color="#6ca9db" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="arm" x2="1" y2="1">
+      <stop stop-color="#e1effb"/>
+      <stop offset="1" stop-color="#80b2dd"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#b0cfea" stroke-opacity=".04"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="420" rx="18" fill="url(#bg)"/>
+  <rect width="1000" height="420" rx="18" fill="url(#grid)"/>
+  <ellipse cx="825" cy="207" rx="256" ry="250" fill="url(#glow)"/>
+  <path d="M593 53V367" stroke="#a9cceb" stroke-opacity=".12"/>
+  <g fill="none" stroke="#8cbbe1" stroke-opacity=".15">
+    <circle cx="801" cy="213" r="153"/>
+    <circle cx="801" cy="213" r="184" stroke-dasharray="3 13"/>
+  </g>
+  <path d="M697 137L937 245L867 332L697 164Z" fill="#6aa5d6" fill-opacity=".1"/>
+  <path d="M697 137L937 245M697 164L867 332" fill="none" stroke="#79afdc" stroke-opacity=".35" stroke-dasharray="5 9"/>
+  <g fill="#284e6c" stroke="#8fbfe3" stroke-width="2">
+    <rect x="629" y="118" width="69" height="61" rx="13"/>
+    <path d="M698 132L720 125V172L698 165Z"/>
+  </g>
+  <circle cx="663" cy="148" r="15" fill="#132d42" stroke="#a8d0ed" stroke-width="5"/>
+  <circle cx="663" cy="148" r="5" fill="#a8d0ed"/>
+  <path d="M841 64H929Q943 64 943 78V106Q943 120 929 120H877L858 137V120H841Q827 120 827 106V78Q827 64 841 64Z" fill="#254866" stroke="#7baed7" stroke-width="2"/>
+  <path d="M849 84H920M849 101H901" stroke="#bdd8ef" stroke-width="7" stroke-linecap="round"/>
+  <rect x="709" y="328" width="111" height="27" rx="9" fill="#79a8cf"/>
+  <path d="M737 328V307H792V328" fill="#365e7d" stroke="#a6cbe7" stroke-width="3"/>
+  <path d="M765 309L711 231L800 153L878 198" fill="none" stroke="url(#arm)" stroke-width="29" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#19384f" stroke="#bfdcf2" stroke-width="5">
+    <circle cx="765" cy="309" r="16"/>
+    <circle cx="711" cy="231" r="19"/>
+    <circle cx="800" cy="153" r="19"/>
+    <circle cx="878" cy="198" r="13"/>
+  </g>
+  <g fill="#8ebbe0">
+    <circle cx="711" cy="231" r="6"/>
+    <circle cx="800" cy="153" r="6"/>
+  </g>
+  <path d="M889 204L914 219M914 219L916 244L932 253M914 219L939 211L956 221" fill="none" stroke="#b9d8ef" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g stroke="#c0d8ed" stroke-width="2" stroke-linejoin="round">
+    <path d="M902 273L934 290L902 308L870 290Z" fill="#77a5cb"/>
+    <path d="M870 290L902 308V345L870 327Z" fill="#3d6a91"/>
+    <path d="M902 308L934 290V327L902 345Z" fill="#244a6a"/>
+  </g>
+  <path d="M631 364H958" stroke="#6d94b4" stroke-opacity=".45" stroke-width="2"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="60" y="77" fill="#9bbfdf" font-size="21" font-weight="700" letter-spacing="2.3">ROBOTICS WORKBENCH</text>
+    <text x="56" y="169" fill="#eff5fc" font-size="78" font-weight="700" letter-spacing="-2">RoboLLM</text>
+    <text x="60" y="227" fill="#c0d2e4" font-size="26">Perception, language, action</text>
+    <path d="M60 286H125" stroke="#8bb9df" stroke-width="4" stroke-linecap="round"/>
+    <text x="60" y="337" fill="#8da9c2" font-size="20" letter-spacing="1.2">PERCEIVE / LEARN / ACT</text>
+  </g>
+</svg>

@@ -1,98 +1,105 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-cover-light.svg" />
+  <img src="assets/profile-cover-dark.svg" alt="Santapong Sondhi — Software, AI & Robotics Engineer. Robot learning and the tools around it." width="100%" />
+</picture>
 
-![Santapong Sondhi — Robotics, agent systems, and the evidence behind them](assets/profile-banner.svg)
+<p align="center">
+  <a href="#on-my-workbench"><b>Projects</b></a> &nbsp; / &nbsp;
+  <a href="https://resume.draveniq.dev/blog"><b>Field Notes</b></a> &nbsp; / &nbsp;
+  <a href="https://resume.draveniq.dev">Portfolio</a> &nbsp; / &nbsp;
+  <a href="https://resume.draveniq.dev/resume">Resume</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/santapong-sondhi-11176034b">LinkedIn</a> &nbsp; / &nbsp;
+  <a href="mailto:santapongsondhi@gmail.com">Connect</a>
+</p>
 
-**Software, AI & Robotics Engineer · Thailand**
+I’m **Santapong**, a software, AI and robotics engineer from Thailand with a background in **Automation Engineering at KMITL**.
 
-[**Portfolio ↗**](https://resume.draveniq.dev) &nbsp; · &nbsp; [**Field Notes ↗**](https://resume.draveniq.dev/blog) &nbsp; · &nbsp; [Resume](https://resume.draveniq.dev/resume) &nbsp; · &nbsp; [LinkedIn](https://www.linkedin.com/in/santapong-sondhi-11176034b) &nbsp; · &nbsp; [Email](mailto:santapongsondhi@gmail.com)
+I explore how robots learn from perception and language, and build the developer tools around that work. My interests run from **embodied AI, VLA models and cross-embodiment learning** to the practical systems for running experiments, delivering software and managing access.
 
-</div>
-
-<br />
-
-I’m **Santapong Sondhi**. I work where intelligent software meets real engineering constraints: robot policies that encounter a different camera view, coding agents whose decisions need to be traced, and business tools that need to make everyday work easier.
-
-My work spans **robot learning, dependable agent systems, and product engineering**. My research direction is **embodied AI, vision-language-action (VLA) models, and cross-embodiment learning**—especially how to evaluate what a system has learned and where it stops generalizing.
-
-**Background:** B.Eng. Automation Engineering, KMITL · Manufacturing software · Industrial robotics pilot · Developer platforms
-
-## Selected work
+## On my workbench
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [RoboLLM](https://github.com/santapong/RoboLLM)
-**Experiments in robot learning**
+<img src="assets/projects/rlm.svg" alt="RLM — a conceptual illustration of a robot experiment loop. Private research project." width="100%" />
 
-A robotics workbench connecting perception, teleoperation, and learned control. UR5e experiments in MuJoCo examine policy behavior under camera shifts, with reproducible evaluation artifacts.
+### RLM
+**Reproducible robot experiments**
 
-<sub>Python · ROS 2 · MuJoCo · PyTorch</sub>
+A Python framework for repeatable robot-learning workflows: collect episodes, replay runs, train and evaluate policies, and compare embodiments.
 
-[Explore the workbench ↗](https://github.com/santapong/RoboLLM) &nbsp; [VLA experiments ↗](https://github.com/santapong/RoboLLM/tree/experiment/ur5e-vla-bed/sim/vla-bed)
+<sub>Python · MuJoCo · Robot learning</sub>
+
+**Private research** · [Ask about the work ↗](mailto:santapongsondhi@gmail.com?subject=RLM%20research)
 
 </td>
 <td width="50%" valign="top">
 
-### [Accretion](https://github.com/santapong/Accretion)
-**Observable execution for coding agents**
+<a href="https://github.com/santapong/RoboLLM"><img src="assets/projects/robollm.svg" alt="RoboLLM — conceptual robot arm and camera illustration" width="100%" /></a>
 
-A provider-neutral control plane for local AI coding agents. Deterministic planning, verifier-gated loops, isolated Git worktrees, and durable traces make execution inspectable.
+### [RoboLLM](https://github.com/santapong/RoboLLM)
+**Perception, language, action**
 
-<sub>Python · FastAPI · React · PostgreSQL</sub>
+A robotics workbench for perception, teleoperation and language-guided control. UR5e experiments in MuJoCo explore learned policies and camera-view shifts.
 
-[Explore the control plane ↗](https://github.com/santapong/Accretion)
+<sub>Python · ROS 2 · MuJoCo · PyTorch</sub>
+
+[Explore the workbench ↗](https://github.com/santapong/RoboLLM) · [VLA experiments ↗](https://github.com/santapong/RoboLLM/tree/experiment/ur5e-vla-bed/sim/vla-bed)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [Signoff](https://github.com/santapong/signoff/tree/develop)
-**A closer look at robot task cycles**
+<a href="https://github.com/santapong/Cooker/tree/develop"><img src="assets/projects/cooker.svg" alt="Cooker — conceptual containers connected through a deployment pipeline" width="100%" /></a>
 
-Camera-based measurement and an Evidence Workbench connecting original footage, cycle timelines, annotations, and qualification reports. Built for engineers to inspect the observations behind a measurement.
+### [Cooker](https://github.com/santapong/Cooker/tree/develop)
+**Build, review, deploy**
 
-<sub>Python · Computer vision · Video analysis</sub>
+Visual CI/CD and reviewed GitHub Compose deployments. Follow builds, approvals and execution through a graph in a self-hosted application.
 
-[Explore the workbench ↗](https://github.com/santapong/signoff/tree/develop)
+<sub>Go · React · Docker · CI/CD</sub>
+
+[Explore Cooker ↗](https://github.com/santapong/Cooker/tree/develop)
 
 </td>
 <td width="50%" valign="top">
 
-### [StockFlow](https://resume.draveniq.dev/projects/17-stockflow)
-**Inventory with a view of cash flow**
+<a href="https://github.com/santapong/KeepSave"><img src="assets/projects/keepsave.svg" alt="KeepSave — conceptual encrypted vault and scoped-access illustration" width="100%" /></a>
 
-Inventory and cash-flow software for Thai SMEs. A product engineering project connecting stock management with the financial questions behind day-to-day business decisions.
+### [KeepSave](https://github.com/santapong/KeepSave)
+**Secrets with boundaries**
 
-<sub>Business software · Inventory · Cash flow</sub>
+A developer vault for encrypted project credentials, scoped access, secret history and recoverable backups. Built around explicit control over who can access what.
 
-[Read the product case study ↗](https://resume.draveniq.dev/projects/17-stockflow)
+<sub>Go · React · PostgreSQL · Access control</sub>
+
+[Explore KeepSave ↗](https://github.com/santapong/KeepSave) · [Website ↗](https://keepsave.draveniq.dev)
 
 </td>
 </tr>
 </table>
 
-**Also building:** [Cooker](https://github.com/santapong/Cooker/tree/develop), visual CI/CD and reviewed container deployments · [Proof](https://github.com/santapong/Proof), composable engineering workflows for Claude Code.
+<sub>Project illustrations represent each project's focus; source repositories describe implementation and validation status.</sub>
 
-**Research & exploration:** [xembodiment-lit](https://github.com/santapong/xembodiment-lit), source-backed reading on embodied AI and cross-embodiment learning · [Trajectory](https://github.com/santapong/Trajectory), robot path planning for jewelry manufacturing.
+## From the field notes
 
-## Questions that guide the work
+I write about the ideas and decisions behind the work—and the occasional engineering question that follows me outside.
 
-- **Generalization:** how robot policies behave when the camera, task, or embodiment changes.
-- **Observability:** how to follow an agent’s decisions from intent through execution and verification.
-- **Evaluation:** how to turn experiments and recorded observations into evidence someone else can inspect.
+- **Robot learning:** [Embodied AI vs Cross-Embodiment AI: Where the Line Actually Sits](https://resume.draveniq.dev/blog/embodied-ai-vs-cross-embodiment)
+- **Engineering:** [AI Proposes, Safety Decides](https://resume.draveniq.dev/blog/ai-proposes-safety-decides)
+- **Beyond the keyboard:** [The Wind Window Is a State Space](https://resume.draveniq.dev/blog/kitesurfing-wind-window-control)
 
-I build around concrete questions, inspectable execution, and measurements that can challenge the result. Simulation results, hardware readiness, and demonstrated transfer each need their own evidence.
-
-## Engineering toolkit
+<details>
+<summary><b>Inside the toolbox</b></summary>
 
 - **Robotics & learning:** Python · ROS 2 · MuJoCo · PyTorch
-- **Agents & backend:** MCP · FastAPI · Go · PostgreSQL
-- **Products & infrastructure:** TypeScript · React · Next.js · Docker · Linux
+- **Software & infrastructure:** Go · TypeScript · React · FastAPI · PostgreSQL · Docker · Linux
+- **Working habits:** reproducible experiments, inspectable execution, and clear boundaries between simulation and hardware evidence.
 
-## Beyond the repository
+</details>
 
-I write [**Field Notes**](https://resume.draveniq.dev/blog) about the ideas, experiments, and engineering decisions behind the work. The [**portfolio**](https://resume.draveniq.dev/projects) brings the projects and their context together.
+---
 
-For research conversations, technical collaboration, or an interesting engineering problem: **[let’s connect ↗](mailto:santapongsondhi@gmail.com)**.
+**An interesting engineering problem is a good reason to connect.** [Email](mailto:santapongsondhi@gmail.com) · [LinkedIn](https://www.linkedin.com/in/santapong-sondhi-11176034b) · [More projects](https://resume.draveniq.dev/projects)

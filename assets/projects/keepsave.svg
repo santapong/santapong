@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-labelledby="title description">
+  <title id="title">KeepSave — Encrypted secrets. Scoped access.</title>
+  <desc id="description">Original conceptual cover with a solid violet vault, a large keyhole and three bounded access nodes. All shapes are illustrative and contain no real secrets, credentials or interface content.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#171222"/>
+      <stop offset="1" stop-color="#30213f"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#b28acb" stop-opacity=".17"/>
+      <stop offset="1" stop-color="#b28acb" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="door" x2="1" y2="1">
+      <stop stop-color="#5b4270"/>
+      <stop offset="1" stop-color="#38294c"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#d1b6e6" stroke-opacity=".04"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="420" rx="18" fill="url(#bg)"/>
+  <rect width="1000" height="420" rx="18" fill="url(#grid)"/>
+  <ellipse cx="819" cy="213" rx="260" ry="250" fill="url(#glow)"/>
+  <path d="M593 53V367" stroke="#c6abd9" stroke-opacity=".13"/>
+  <g fill="none" stroke="#b798cc" stroke-opacity=".16">
+    <circle cx="798" cy="211" r="155"/>
+    <circle cx="798" cy="211" r="184" stroke-dasharray="3 13"/>
+  </g>
+  <g fill="none" stroke="#a581bf" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M851 162H880V111H914"/>
+    <path d="M851 211H914"/>
+    <path d="M851 260H880V310H914"/>
+  </g>
+  <path d="M669 99L837 77L870 111V320L837 345L669 320Z" fill="#241d34" stroke="#a287b8" stroke-width="2"/>
+  <path d="M837 77L870 111V320L837 345Z" fill="#20192d"/>
+  <rect x="650" y="93" width="195" height="243" rx="26" fill="#31243f" stroke="#bc9dd3" stroke-width="3"/>
+  <rect x="667" y="111" width="160" height="207" rx="18" fill="url(#door)" stroke="#8d70a5" stroke-width="2"/>
+  <g fill="#c9aede">
+    <rect x="640" y="137" width="22" height="35" rx="7"/>
+    <rect x="640" y="255" width="22" height="35" rx="7"/>
+  </g>
+  <circle cx="747" cy="214" r="51" fill="#231c33" stroke="#b799cf" stroke-width="3"/>
+  <circle cx="747" cy="205" r="16" fill="#e4cfef"/>
+  <path d="M738 213H756L762 242H732Z" fill="#e4cfef"/>
+  <g fill="#d3b9e5">
+    <circle cx="685" cy="129" r="4"/>
+    <circle cx="809" cy="129" r="4"/>
+    <circle cx="685" cy="300" r="4"/>
+    <circle cx="809" cy="300" r="4"/>
+  </g>
+  <g fill="#4c355f" stroke="#bb96d3" stroke-width="2">
+    <rect x="911" y="85" width="53" height="53" rx="16"/>
+    <rect x="911" y="185" width="53" height="53" rx="16"/>
+    <rect x="911" y="284" width="53" height="53" rx="16"/>
+  </g>
+  <g fill="none" stroke="#e4cbed" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M926 112L934 120L949 104"/>
+    <path d="M926 212L934 220L949 204"/>
+    <path d="M926 311L934 319L949 303"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="60" y="77" fill="#c1a3d4" font-size="21" font-weight="700" letter-spacing="2.3">SECURE INFRASTRUCTURE</text>
+    <text x="56" y="169" fill="#f7effc" font-size="78" font-weight="700" letter-spacing="-2">KeepSave</text>
+    <text x="60" y="227" fill="#d4c1df" font-size="26">Encrypted secrets. Scoped access.</text>
+    <path d="M60 286H125" stroke="#bf99d8" stroke-width="4" stroke-linecap="round"/>
+    <text x="60" y="337" fill="#ab92bc" font-size="20" letter-spacing="1.2">VAULT / IDENTITY / ACCESS</text>
+  </g>
+</svg>

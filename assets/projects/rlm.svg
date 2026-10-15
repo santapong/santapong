@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-labelledby="title description">
+  <title id="title">RLM — Reproducible robot experiments</title>
+  <desc id="description">Original conceptual cover for private research. Three substantial data, policy and evaluation blocks form an experiment loop. This is an illustration, not a project interface or experimental result.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#0d1916"/>
+      <stop offset="1" stop-color="#192b24"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#83b69b" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#83b69b" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#b2d5bf" stroke-opacity=".035"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9Z" fill="#8ab69e"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="420" rx="18" fill="url(#bg)"/>
+  <rect width="1000" height="420" rx="18" fill="url(#grid)"/>
+  <ellipse cx="824" cy="210" rx="250" ry="252" fill="url(#glow)"/>
+  <path d="M593 53V367" stroke="#a8ccb6" stroke-opacity=".12"/>
+  <g fill="none" stroke="#89ad96" stroke-opacity=".16">
+    <circle cx="793" cy="212" r="151"/>
+    <circle cx="793" cy="212" r="182" stroke-dasharray="3 13"/>
+  </g>
+  <g fill="none" stroke="#8ab69e" stroke-width="7" stroke-linecap="round" marker-end="url(#arrow)">
+    <path d="M776 109C840 110 881 139 884 171"/>
+    <path d="M884 268C880 311 834 334 789 334"/>
+    <path d="M665 290C620 246 620 186 663 148"/>
+  </g>
+  <g stroke="#a2ccb1" stroke-width="2">
+    <rect x="663" y="64" width="124" height="97" rx="18" fill="#263f33"/>
+    <rect x="817" y="177" width="139" height="92" rx="18" fill="#304c3d"/>
+    <rect x="663" y="283" width="124" height="94" rx="18" fill="#233c31"/>
+  </g>
+  <g fill="#c9e2d0">
+    <rect x="687" y="84" width="77" height="8" rx="4"/>
+    <rect x="687" y="98" width="59" height="8" rx="4" opacity=".62"/>
+    <rect x="687" y="112" width="69" height="8" rx="4" opacity=".35"/>
+    <circle cx="851" cy="202" r="7"/>
+    <circle cx="888" cy="202" r="7"/>
+    <circle cx="925" cy="202" r="7"/>
+  </g>
+  <g stroke="#bfdcc8" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M858 202H881M895 202H918"/>
+    <path d="M687 326L704 338L734 307" stroke-width="6"/>
+    <path d="M746 310H763M746 323H763" opacity=".55"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="60" y="77" fill="#a2c4ad" font-size="21" font-weight="700" letter-spacing="2.3">PRIVATE RESEARCH</text>
+    <text x="56" y="169" fill="#edf4ed" font-size="78" font-weight="700" letter-spacing="-2">RLM</text>
+    <text x="60" y="227" fill="#c1d2c4" font-size="26">Reproducible robot experiments</text>
+    <path d="M60 286H125" stroke="#9cc5aa" stroke-width="4" stroke-linecap="round"/>
+    <text x="60" y="337" fill="#90aa98" font-size="20" letter-spacing="1.2">DATA / POLICY / EVALUATION</text>
+    <g fill="#d4e7da" font-size="21" font-weight="700" letter-spacing="1.2" text-anchor="middle">
+      <text x="725" y="146">DATA</text>
+      <text x="887" y="248">POLICY</text>
+      <text x="725" y="363">EVAL</text>
+    </g>
+  </g>
+</svg>
