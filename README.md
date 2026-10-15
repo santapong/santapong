@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="assets/profile-cover-light.svg" />
-  <img src="assets/profile-cover-dark.svg" alt="Santapong Sondhi — Software, AI & Robotics Engineer. Robot learning and the tools around it." width="100%" />
+  <img src="assets/profile-cover-dark.svg" alt="Santapong Sondhi — Software, AI & Robotics Engineer. My long-term ambition: embodied AGI and general-purpose humanoid robots." width="100%" />
 </picture>
 
 <p align="center">
@@ -12,9 +12,17 @@
   <a href="mailto:santapongsondhi@gmail.com">Connect</a>
 </p>
 
-I’m **Santapong**, a software, AI and robotics engineer from Thailand with a background in **Automation Engineering at KMITL**.
+I’m **Santapong**, a software, AI and robotics engineer from Thailand. I love building things—and seeing an idea become something that runs, learns, or moves.
 
-I explore how robots learn from perception and language, and build the developer tools around that work. My interests run from **embodied AI, VLA models and cross-embodiment learning** to the practical systems for running experiments, delivering software and managing access.
+## Why I build
+
+My long-term ambition is **embodied AGI and general-purpose humanoid robots**: machines that can understand the world, learn useful skills, and act within it. That is the future I want to help build.
+
+My grounding is practical: **Automation Engineering at KMITL**, manufacturing software, an industrial robotics pilot, and developer-platform work. I’m interested in the whole journey from an idea to a system we can observe, test, and improve.
+
+Today, that curiosity takes two connected directions: **teaching robots to learn** and **building useful tools for the people doing the work**. RLM and RoboLLM explore experiments, perception, language and action. Cooker and KeepSave reflect the same builder’s instinct through software delivery and controlled access.
+
+The bigger questions keep me coming back: how intelligence generalizes, how robots learn across bodies, and what it takes to turn a promising experiment into something useful.
 
 ## On my workbench
 
@@ -25,7 +33,7 @@ I explore how robots learn from perception and language, and build the developer
 <img src="assets/projects/rlm.svg" alt="RLM — a conceptual illustration of a robot experiment loop. Private research project." width="100%" />
 
 ### RLM
-**Reproducible robot experiments**
+**Learn through experiments**
 
 A Python framework for repeatable robot-learning workflows: collect episodes, replay runs, train and evaluate policies, and compare embodiments.
 
@@ -39,7 +47,7 @@ A Python framework for repeatable robot-learning workflows: collect episodes, re
 <a href="https://github.com/santapong/RoboLLM"><img src="assets/projects/robollm.svg" alt="RoboLLM — conceptual robot arm and camera illustration" width="100%" /></a>
 
 ### [RoboLLM](https://github.com/santapong/RoboLLM)
-**Perception, language, action**
+**Connect perception, language and action**
 
 A robotics workbench for perception, teleoperation and language-guided control. UR5e experiments in MuJoCo explore learned policies and camera-view shifts.
 
@@ -55,7 +63,7 @@ A robotics workbench for perception, teleoperation and language-guided control. 
 <a href="https://github.com/santapong/Cooker/tree/develop"><img src="assets/projects/cooker.svg" alt="Cooker — conceptual containers connected through a deployment pipeline" width="100%" /></a>
 
 ### [Cooker](https://github.com/santapong/Cooker/tree/develop)
-**Build, review, deploy**
+**Turn code into running systems**
 
 Visual CI/CD and reviewed GitHub Compose deployments. Follow builds, approvals and execution through a graph in a self-hosted application.
 
@@ -69,7 +77,7 @@ Visual CI/CD and reviewed GitHub Compose deployments. Follow builds, approvals a
 <a href="https://github.com/santapong/KeepSave"><img src="assets/projects/keepsave.svg" alt="KeepSave — conceptual encrypted vault and scoped-access illustration" width="100%" /></a>
 
 ### [KeepSave](https://github.com/santapong/KeepSave)
-**Secrets with boundaries**
+**Protect the systems behind the work**
 
 A developer vault for encrypted project credentials, scoped access, secret history and recoverable backups. Built around explicit control over who can access what.
 
@@ -85,7 +93,7 @@ A developer vault for encrypted project credentials, scoped access, secret histo
 
 ## From the field notes
 
-I write about the ideas and decisions behind the work—and the occasional engineering question that follows me outside.
+I share what I build, what fails, and what I want to understand next. Sometimes the same engineering questions follow me outside the lab.
 
 - **Robot learning:** [Embodied AI vs Cross-Embodiment AI: Where the Line Actually Sits](https://resume.draveniq.dev/blog/embodied-ai-vs-cross-embodiment)
 - **Engineering:** [AI Proposes, Safety Decides](https://resume.draveniq.dev/blog/ai-proposes-safety-decides)
@@ -97,6 +105,13 @@ I write about the ideas and decisions behind the work—and the occasional engin
 - **Robotics & learning:** Python · ROS 2 · MuJoCo · PyTorch
 - **Software & infrastructure:** Go · TypeScript · React · FastAPI · PostgreSQL · Docker · Linux
 - **Working habits:** reproducible experiments, inspectable execution, and clear boundaries between simulation and hardware evidence.
+
+</details>
+
+<details>
+<summary>Still banner options</summary>
+
+[Dark](assets/profile-cover-dark-static.svg) · [Light](assets/profile-cover-light-static.svg)
 
 </details>
 

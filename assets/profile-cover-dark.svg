@@ -1,19 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="350" viewBox="0 0 1600 350" role="img" aria-labelledby="title desc">
-<title id="title">Santapong Sondhi — Software, AI &amp; Robotics Engineer</title>
-<desc id="desc">Robot learning and the tools around it. Four connected project panels represent RLM, RoboLLM, Cooker and KeepSave.</desc>
-<defs><pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#a7b1c2" opacity=".09"/></pattern></defs>
-<rect width="1600" height="350" rx="16" fill="#0d1117"/>
-<rect width="1600" height="350" rx="16" fill="url(#dots)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="380" viewBox="0 0 1600 380" role="img" aria-labelledby="title desc">
+<title id="title">Santapong Sondhi — building toward embodied AGI and humanoid robots</title>
+<desc id="desc">Software, AI and robotics engineer. Long-term ambition: embodied AGI and general-purpose humanoid robots. Current projects: RLM, RoboLLM, Cooker and KeepSave. The headline types through three statements; reduced motion shows the complete ambition instead.</desc>
+<defs>
+<pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#a7b1c2" opacity=".09"/></pattern>
+<clipPath id="line-0" clipPathUnits="userSpaceOnUse"><rect class="reveal phase-0" x="76" y="207" width="0" height="46"/></clipPath>
+<clipPath id="line-1" clipPathUnits="userSpaceOnUse"><rect class="reveal phase-1" x="76" y="207" width="0" height="46"/></clipPath>
+<clipPath id="line-2" clipPathUnits="userSpaceOnUse"><rect class="reveal phase-2" x="76" y="207" width="0" height="46"/></clipPath>
+</defs>
+<style>
+/* Complete, still text is the default if motion is reduced or CSS is unavailable. */
+@media (prefers-reduced-motion: no-preference) {
+  .motion { display: inline; }
+  .still { display: none; }
+  .reveal { animation: type-cycle 18s steps(48, end) infinite; }
+  .phase-1 { animation-delay: 6s; }
+  .phase-2 { animation-delay: 12s; }
+}
+@keyframes type-cycle {
+  0%, 1% { width: 0; }
+  14%, 26% { width: 800px; }
+  32%, 100% { width: 0; }
+}
+</style>
+<rect width="1600" height="380" rx="16" fill="#0d1117"/>
+<rect width="1600" height="380" rx="16" fill="url(#dots)"/>
 <g font-family="Arial, Helvetica, sans-serif">
-<text x="76" y="68" fill="#a5adba" font-size="17" letter-spacing="3">SOFTWARE / AI / ROBOTICS</text>
-<text x="72" y="156" fill="#f1f4f8" font-size="78" font-weight="700" letter-spacing="-2">Santapong Sondhi</text>
-<text x="76" y="215" fill="#a5adba" font-size="28">Robot learning and the tools around it.</text>
-<path d="M76 253H154" stroke="#8e83bf" stroke-width="3"/>
-<text x="76" y="299" fill="#a5adba" font-size="19">Experiments. Developer tools. Secure systems.</text>
+<text x="76" y="65" fill="#a5adba" font-size="17" letter-spacing="3">SOFTWARE / AI / ROBOTICS</text>
+<text x="72" y="149" fill="#f1f4f8" font-size="78" font-weight="700" letter-spacing="-2">Santapong Sondhi</text>
+<text x="76" y="188" fill="#a5adba" font-size="21">Engineer. Builder. Exploring what intelligence can become.</text>
 </g>
-<g fill="none" stroke="#303844" stroke-width="2"><path d="M1138 101H1398V250H1138Z"/><path d="M1138 101L1398 250M1398 101L1138 250" stroke-dasharray="5 8"/></g>
-<g transform="translate(1040 42)"><rect width="216" height="112" rx="12" fill="#151c26" stroke="#303844"/><rect x="18" y="21" width="7" height="7" rx="2" fill="#6fc6a4"/><g font-family="Arial, Helvetica, sans-serif"><text x="18" y="66" fill="#f1f4f8" font-size="31" font-weight="700">RLM</text><text x="18" y="91" fill="#a5adba" font-size="11" letter-spacing="1.15">ROBOT EXPERIMENTS</text></g></g>
-<g transform="translate(1300 42)"><rect width="216" height="112" rx="12" fill="#151c26" stroke="#303844"/><rect x="18" y="21" width="7" height="7" rx="2" fill="#65aef0"/><g font-family="Arial, Helvetica, sans-serif"><text x="18" y="66" fill="#f1f4f8" font-size="31" font-weight="700">RoboLLM</text><text x="18" y="91" fill="#a5adba" font-size="11" letter-spacing="1.15">PERCEPTION &amp; CONTROL</text></g></g>
-<g transform="translate(1040 209)"><rect width="216" height="112" rx="12" fill="#151c26" stroke="#303844"/><rect x="18" y="21" width="7" height="7" rx="2" fill="#ecaa70"/><g font-family="Arial, Helvetica, sans-serif"><text x="18" y="66" fill="#f1f4f8" font-size="31" font-weight="700">Cooker</text><text x="18" y="91" fill="#a5adba" font-size="11" letter-spacing="1.15">SOFTWARE DELIVERY</text></g></g>
-<g transform="translate(1300 209)"><rect width="216" height="112" rx="12" fill="#151c26" stroke="#303844"/><rect x="18" y="21" width="7" height="7" rx="2" fill="#b09ae4"/><g font-family="Arial, Helvetica, sans-serif"><text x="18" y="66" fill="#f1f4f8" font-size="31" font-weight="700">KeepSave</text><text x="18" y="91" fill="#a5adba" font-size="11" letter-spacing="1.15">SECRETS &amp; ACCESS</text></g></g>
+<g font-family="Consolas, Liberation Mono, monospace" font-size="26" fill="#c6b3f2">
+<text class="still" x="76" y="239">Building toward embodied AGI and humanoid robots.</text>
+<g class="motion" display="none">
+<text x="76" y="239" clip-path="url(#line-0)">Building toward intelligent humanoid robots.</text>
+<text x="76" y="239" clip-path="url(#line-1)">Exploring embodied AI and robot learning.</text>
+<text x="76" y="239" clip-path="url(#line-2)">Making ideas real, one system at a time.</text>
+</g>
+</g>
+<path d="M76 279H154" stroke="#c6b3f2" stroke-width="3"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="76" y="323" fill="#a5adba" font-size="17" letter-spacing="1">NORTH STAR: EMBODIED AGI + HUMANOID ROBOTICS</text>
+<text x="1039" y="35" fill="#a5adba" font-size="13" letter-spacing="2">WHAT I'M BUILDING TODAY</text>
+</g>
+<g fill="none" stroke="#303844" stroke-width="2"><path d="M1138 116H1398V265H1138Z"/><path d="M1138 116L1398 265M1398 116L1138 265" stroke-dasharray="5 8"/></g>
+<g transform="translate(1040 57)"><rect width="216" height="112" rx="12" fill="#151c26" stroke="#303844"/><rect x="18" y="21" width="7" height="7" rx="2" fill="#6fc6a4"/><g font-family="Arial, Helvetica, sans-serif"><text x="18" y="66" fill="#f1f4f8" font-size="31" font-weight="700">RLM</text><text x="18" y="91" fill="#a5adba" font-size="11" letter-spacing="1.15">ROBOT EXPERIMENTS</text></g></g>
+<g transform="translate(1300 57)"><rect width="216" height="112" rx="12" fill="#151c26" stroke="#303844"/><rect x="18" y="21" width="7" height="7" rx="2" fill="#65aef0"/><g font-family="Arial, Helvetica, sans-serif"><text x="18" y="66" fill="#f1f4f8" font-size="31" font-weight="700">RoboLLM</text><text x="18" y="91" fill="#a5adba" font-size="11" letter-spacing="1.15">PERCEPTION &amp; CONTROL</text></g></g>
+<g transform="translate(1040 224)"><rect width="216" height="112" rx="12" fill="#151c26" stroke="#303844"/><rect x="18" y="21" width="7" height="7" rx="2" fill="#ecaa70"/><g font-family="Arial, Helvetica, sans-serif"><text x="18" y="66" fill="#f1f4f8" font-size="31" font-weight="700">Cooker</text><text x="18" y="91" fill="#a5adba" font-size="11" letter-spacing="1.15">SOFTWARE DELIVERY</text></g></g>
+<g transform="translate(1300 224)"><rect width="216" height="112" rx="12" fill="#151c26" stroke="#303844"/><rect x="18" y="21" width="7" height="7" rx="2" fill="#b09ae4"/><g font-family="Arial, Helvetica, sans-serif"><text x="18" y="66" fill="#f1f4f8" font-size="31" font-weight="700">KeepSave</text><text x="18" y="91" fill="#a5adba" font-size="11" letter-spacing="1.15">SECRETS &amp; ACCESS</text></g></g>
 </svg>
