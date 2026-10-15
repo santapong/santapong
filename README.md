@@ -87,9 +87,9 @@ I build around concrete questions, inspectable execution, and measurements that 
 
 ## Engineering toolkit
 
-| Robotics & learning | Agents & backend | Products & infrastructure |
-| :--- | :--- | :--- |
-| Python · ROS 2 · MuJoCo · PyTorch | MCP · FastAPI · Go · PostgreSQL | TypeScript · React · Next.js · Docker · Linux |
+- **Robotics & learning:** Python · ROS 2 · MuJoCo · PyTorch
+- **Agents & backend:** MCP · FastAPI · Go · PostgreSQL
+- **Products & infrastructure:** TypeScript · React · Next.js · Docker · Linux
 
 ## Beyond the repository
 
