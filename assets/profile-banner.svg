@@ -1,48 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="440" viewBox="0 0 1600 440" role="img" aria-labelledby="title description">
-  <title id="title">Santapong Sondhi — Software, AI &amp; Robotics Engineer</title>
-  <desc id="description">A dark star map connects robotics and embodied AI, agent systems, and products around Santapong's name.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-labelledby="title description">
+  <title id="title">Santapong Sondhi — Robotics, agent systems, and the evidence behind them</title>
+  <desc id="description">An engineering notebook inspired cover with a conceptual robot arm, a connected execution trace, and a restrained star map. The illustration represents research interests, not a physical robot demonstration.</desc>
   <defs>
     <linearGradient id="background" x2="1" y2="1">
-      <stop stop-color="#0b1020"/>
-      <stop offset="1" stop-color="#17152d"/>
+      <stop stop-color="#0b111e"/>
+      <stop offset=".55" stop-color="#111727"/>
+      <stop offset="1" stop-color="#211b35"/>
     </linearGradient>
-    <radialGradient id="nebula">
-      <stop stop-color="#8270c0" stop-opacity=".22"/>
-      <stop offset="1" stop-color="#8270c0" stop-opacity="0"/>
+    <radialGradient id="halo">
+      <stop stop-color="#a28ccc" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#a28ccc" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
-      <path d="M64 0H0V64" fill="none" stroke="#c0b6df" stroke-opacity=".045"/>
+    <linearGradient id="arm" x2="1" y2="1">
+      <stop stop-color="#e9e3f4"/>
+      <stop offset="1" stop-color="#aa94ce"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#c3b6db" stroke-opacity=".035"/>
     </pattern>
   </defs>
-  <rect width="1600" height="440" rx="16" fill="url(#background)"/>
-  <rect width="1600" height="440" rx="16" fill="url(#grid)"/>
-  <ellipse cx="1260" cy="230" rx="430" ry="340" fill="url(#nebula)"/>
-  <g fill="none" stroke="#b5a4e1">
-    <circle cx="1340" cy="220" r="155" stroke-opacity=".12"/>
-    <circle cx="1340" cy="220" r="224" stroke-opacity=".08"/>
-    <path d="M1148 332L1257 89L1452 172L1390 362L1148 332L1452 172M1257 89L1390 362" stroke-opacity=".26"/>
-    <path d="M1178 220H1504M1340 56V384" stroke-opacity=".08"/>
+  <rect width="1600" height="480" rx="16" fill="url(#background)"/>
+  <rect width="1600" height="480" rx="16" fill="url(#grid)"/>
+  <ellipse cx="1310" cy="234" rx="350" ry="310" fill="url(#halo)"/>
+  <path d="M1004 48V432" stroke="#a994cb" stroke-opacity=".14"/>
+  <g fill="none" stroke="#bca9db">
+    <circle cx="1296" cy="229" r="158" stroke-opacity=".12"/>
+    <circle cx="1296" cy="229" r="204" stroke-opacity=".06"/>
+    <path d="M1074 229H1518M1296 34V424" stroke-opacity=".08" stroke-dasharray="3 10"/>
+    <path d="M1172 132L1413 82L1500 269L1372 395" stroke-opacity=".12"/>
   </g>
-  <g fill="#cbb9ef">
-    <circle cx="1148" cy="332" r="5"/>
-    <circle cx="1257" cy="89" r="5"/>
-    <circle cx="1452" cy="172" r="6"/>
-    <circle cx="1390" cy="362" r="4"/>
-    <circle cx="1340" cy="220" r="8"/>
+  <g fill="#d7caed" opacity=".45">
+    <circle cx="1172" cy="132" r="2"/><circle cx="1413" cy="82" r="2"/>
+    <circle cx="1500" cy="269" r="2"/><circle cx="1372" cy="395" r="2"/>
+    <circle cx="1480" cy="48" r="1.5"/><circle cx="1052" cy="81" r="1"/>
+    <circle cx="61" cy="391" r="1"/><circle cx="920" cy="64" r="1.5"/>
   </g>
-  <g fill="#e2d9f8" opacity=".36">
-    <circle cx="67" cy="73" r="1.5"/><circle cx="505" cy="43" r="1"/>
-    <circle cx="1057" cy="72" r="1.5"/><circle cx="1531" cy="57" r="1"/>
-    <circle cx="1548" cy="352" r="1.5"/><circle cx="1011" cy="374" r="1"/>
-    <circle cx="426" cy="389" r="1.5"/><circle cx="64" cy="355" r="1"/>
-    <circle cx="931" cy="129" r="1"/><circle cx="1170" cy="42" r="1"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1190 333H1310M1216 333V305H1284V333" stroke="#a995cb" stroke-width="5"/>
+    <path d="M1250 304L1190 227L1305 142L1406 189" stroke="url(#arm)" stroke-width="16"/>
+    <path d="M1250 304L1190 227L1305 142L1406 189" stroke="#0e1422" stroke-width="3"/>
+    <path d="M1406 189L1438 204M1438 204L1447 234L1465 242M1438 204L1469 198L1487 207" stroke="#d3c4e8" stroke-width="6"/>
+    <path d="M1464 270L1431 287L1431 319L1464 335L1497 319V287Z" stroke="#d6b986" stroke-opacity=".7" stroke-width="2"/>
+    <path d="M1431 287L1464 303L1497 287M1464 303V335" stroke="#d6b986" stroke-opacity=".5" stroke-width="2"/>
+  </g>
+  <g fill="#151a2b" stroke="#c4b1df" stroke-width="3">
+    <circle cx="1250" cy="304" r="12"/><circle cx="1190" cy="227" r="13"/>
+    <circle cx="1305" cy="142" r="13"/><circle cx="1406" cy="189" r="9"/>
+  </g>
+  <g fill="#d6b986">
+    <circle cx="1190" cy="227" r="4"/><circle cx="1305" cy="142" r="4"/>
+  </g>
+  <path d="M1125 383H1483" stroke="#7e729b" stroke-opacity=".6" stroke-width="2"/>
+  <g fill="#111727" stroke="#b9a1d5" stroke-width="2">
+    <circle cx="1125" cy="383" r="5"/><circle cx="1244" cy="383" r="5"/>
+    <circle cx="1364" cy="383" r="5"/><circle cx="1483" cy="383" r="5"/>
   </g>
   <g font-family="Arial, Helvetica, sans-serif">
-    <text x="96" y="92" fill="#b6a5dc" font-size="18" letter-spacing="4">EXPLORE / BUILD / LEARN</text>
-    <text x="92" y="194" fill="#f3f0fa" font-size="76" font-weight="700" letter-spacing="-2">Santapong Sondhi</text>
-    <text x="96" y="251" fill="#d5cce8" font-size="29">Software, AI &amp; Robotics Engineer</text>
-    <path d="M96 286H192" stroke="#b49bde" stroke-width="2"/>
-    <text x="96" y="333" fill="#bfb1d7" font-size="23">Robotics &amp; Embodied AI · Agent Systems · Products</text>
-    <text x="96" y="387" fill="#8f87a4" font-size="18" letter-spacing="1">THAILAND</text>
+    <text x="84" y="83" fill="#b5a1cf" font-size="17" letter-spacing="3.5">SOFTWARE / AI / ROBOTICS</text>
+    <text x="80" y="194" fill="#f2eef8" font-size="78" font-weight="700" letter-spacing="-2">Santapong Sondhi</text>
+    <text x="84" y="252" fill="#c2b5d4" font-size="27">Robotics, agent systems,</text>
+    <text x="84" y="291" fill="#c2b5d4" font-size="27">and the evidence behind them.</text>
+    <path d="M84 337H154" stroke="#d6b986" stroke-width="2"/>
+    <text x="84" y="385" fill="#a398b7" font-size="19" letter-spacing=".5">Robot learning · Observable execution · Product engineering</text>
+    <text x="84" y="431" fill="#8b829d" font-size="15" letter-spacing="2">EXPLORE. BUILD. MEASURE. LEARN.</text>
+    <g fill="#9f91b7" font-size="12" letter-spacing="1.5" text-anchor="middle">
+      <text x="1125" y="415">PLAN</text><text x="1244" y="415">EXECUTE</text>
+      <text x="1364" y="415">OBSERVE</text><text x="1483" y="415">VERIFY</text>
+    </g>
   </g>
 </svg>

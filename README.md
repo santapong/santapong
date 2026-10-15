@@ -1,54 +1,98 @@
 <div align="center">
 
-![Santapong Sondhi — Software, AI & Robotics Engineer](assets/profile-banner.svg)
-
-# Hi, I'm Santapong.
+![Santapong Sondhi — Robotics, agent systems, and the evidence behind them](assets/profile-banner.svg)
 
 **Software, AI & Robotics Engineer · Thailand**
 
-[Portfolio](https://resume.draveniq.dev) · [Field Notes](https://resume.draveniq.dev/blog) · [Resume](https://resume.draveniq.dev/resume) · [LinkedIn](https://www.linkedin.com/in/santapong-sondhi-11176034b) · [Email](mailto:santapongsondhi@gmail.com)
+[**Portfolio ↗**](https://resume.draveniq.dev) &nbsp; · &nbsp; [**Field Notes ↗**](https://resume.draveniq.dev/blog) &nbsp; · &nbsp; [Resume](https://resume.draveniq.dev/resume) &nbsp; · &nbsp; [LinkedIn](https://www.linkedin.com/in/santapong-sondhi-11176034b) &nbsp; · &nbsp; [Email](mailto:santapongsondhi@gmail.com)
 
 </div>
 
-I build software for intelligent systems, from robot-learning experiments to tools for dependable AI agents and practical products. My background is in automation engineering at KMITL; my research interests center on **robotics, embodied AI, vision-language-action models, and cross-embodiment learning**.
+<br />
 
-I'm drawn to the point where an idea meets a real constraint: a limited dataset, an unreliable workflow, or a robot that behaves differently from its simulation. I build, measure, and write about what I learn.
+I’m **Santapong Sondhi**. I work where intelligent software meets real engineering constraints: robot policies that encounter a different camera view, coding agents whose decisions need to be traced, and business tools that need to make everyday work easier.
 
-## What connects my work
+My work spans **robot learning, dependable agent systems, and product engineering**. My research direction is **embodied AI, vision-language-action (VLA) models, and cross-embodiment learning**—especially how to evaluate what a system has learned and where it stops generalizing.
 
-- **Robotics & embodied AI:** perception, language-guided manipulation, and learning policies that could transfer across robot bodies. I explore these questions through simulation experiments and robotics tooling.
-- **Agent systems:** making AI-assisted engineering observable and bounded, with explicit approvals, isolated execution, and verification.
-- **Useful products:** turning engineering into software for everyday work, from inventory and cash flow to container delivery.
+**Background:** B.Eng. Automation Engineering, KMITL · Manufacturing software · Industrial robotics pilot · Developer platforms
 
 ## Selected work
 
-| Project | What I'm building |
-| :--- | :--- |
-| **[RoboLLM](https://github.com/santapong/RoboLLM)** | Robotics workbench connecting ROS 2, perception, teleoperation, and simulation. [UR5e VLA experiments](https://github.com/santapong/RoboLLM/tree/experiment/ur5e-vla-bed/sim/vla-bed) study learned control and camera shifts in MuJoCo. |
-| **[Signoff](https://github.com/santapong/signoff/tree/develop)** | Camera measurement and an Evidence Workbench for reviewing visible robot task cycles, original footage, annotations, and qualification reports. Real-station qualification is pending. |
-| **[Accretion](https://github.com/santapong/Accretion)** | A provider-neutral control plane for local coding agents: deterministic planning, verifier-gated loops, isolated Git worktrees, and durable execution traces. |
-| **[StockFlow](https://resume.draveniq.dev/projects/17-stockflow)** | Inventory and cash-flow software for Thai SMEs. The public case study explains the product; the source repository is private. |
-| **[Cooker](https://github.com/santapong/Cooker/tree/develop)** | Self-hosted visual CI/CD pipelines and reviewed GitHub Compose deployments, with a graph for inspecting stages and execution. |
-| **[Proof](https://github.com/santapong/Proof)** | Composable Claude Code skills for governed engineering workflows, from understanding a codebase to review, verification, and delivery. |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-The research reading behind the experiments lives in **[xembodiment-lit](https://github.com/santapong/xembodiment-lit)**. **[Trajectory](https://github.com/santapong/Trajectory)** explores robot path planning for jewelry manufacturing. More projects and their context are on my [portfolio](https://resume.draveniq.dev/projects).
+### [RoboLLM](https://github.com/santapong/RoboLLM)
+**Experiments in robot learning**
 
-## How I work
+A robotics workbench connecting perception, teleoperation, and learned control. UR5e experiments in MuJoCo examine policy behavior under camera shifts, with reproducible evaluation artifacts.
 
-Start with a concrete question. Build the smallest useful system. Keep the inputs, decisions, and results inspectable. Use failures to choose the next experiment.
+<sub>Python · ROS 2 · MuJoCo · PyTorch</sub>
 
-For robotics, I keep simulation results, hardware readiness, and demonstrated transfer distinct. For agent systems, I care about what actually ran, what was verified, and what needs a human decision.
+[Explore the workbench ↗](https://github.com/santapong/RoboLLM) &nbsp; [VLA experiments ↗](https://github.com/santapong/RoboLLM/tree/experiment/ur5e-vla-bed/sim/vla-bed)
 
-## Tools I work with
+</td>
+<td width="50%" valign="top">
 
-| Area | Tools |
-| :--- | :--- |
-| Robotics & learning | Python · ROS 2 · MuJoCo · PyTorch |
-| Agents & backend | MCP · FastAPI · Go · PostgreSQL |
-| Products & infrastructure | TypeScript · React · Next.js · Docker · Linux |
+### [Accretion](https://github.com/santapong/Accretion)
+**Observable execution for coding agents**
 
-## Let's connect
+A provider-neutral control plane for local AI coding agents. Deterministic planning, verifier-gated loops, isolated Git worktrees, and durable traces make execution inspectable.
 
-I'm interested in conversations and collaborations around **robot learning, embodied AI, cross-embodiment evaluation, and dependable agent systems**.
+<sub>Python · FastAPI · React · PostgreSQL</sub>
 
-Read the [Field Notes](https://resume.draveniq.dev/blog), explore the [portfolio](https://resume.draveniq.dev), or reach me at **[santapongsondhi@gmail.com](mailto:santapongsondhi@gmail.com)**.
+[Explore the control plane ↗](https://github.com/santapong/Accretion)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Signoff](https://github.com/santapong/signoff/tree/develop)
+**A closer look at robot task cycles**
+
+Camera-based measurement and an Evidence Workbench connecting original footage, cycle timelines, annotations, and qualification reports. Built for engineers to inspect the observations behind a measurement.
+
+<sub>Python · Computer vision · Video analysis</sub>
+
+[Explore the workbench ↗](https://github.com/santapong/signoff/tree/develop)
+
+</td>
+<td width="50%" valign="top">
+
+### [StockFlow](https://resume.draveniq.dev/projects/17-stockflow)
+**Inventory with a view of cash flow**
+
+Inventory and cash-flow software for Thai SMEs. A product engineering project connecting stock management with the financial questions behind day-to-day business decisions.
+
+<sub>Business software · Inventory · Cash flow</sub>
+
+[Read the product case study ↗](https://resume.draveniq.dev/projects/17-stockflow)
+
+</td>
+</tr>
+</table>
+
+**Also building:** [Cooker](https://github.com/santapong/Cooker/tree/develop), visual CI/CD and reviewed container deployments · [Proof](https://github.com/santapong/Proof), composable engineering workflows for Claude Code.
+
+**Research & exploration:** [xembodiment-lit](https://github.com/santapong/xembodiment-lit), source-backed reading on embodied AI and cross-embodiment learning · [Trajectory](https://github.com/santapong/Trajectory), robot path planning for jewelry manufacturing.
+
+## Questions that guide the work
+
+- **Generalization:** how robot policies behave when the camera, task, or embodiment changes.
+- **Observability:** how to follow an agent’s decisions from intent through execution and verification.
+- **Evaluation:** how to turn experiments and recorded observations into evidence someone else can inspect.
+
+I build around concrete questions, inspectable execution, and measurements that can challenge the result. Simulation results, hardware readiness, and demonstrated transfer each need their own evidence.
+
+## Engineering toolkit
+
+| Robotics & learning | Agents & backend | Products & infrastructure |
+| :--- | :--- | :--- |
+| Python · ROS 2 · MuJoCo · PyTorch | MCP · FastAPI · Go · PostgreSQL | TypeScript · React · Next.js · Docker · Linux |
+
+## Beyond the repository
+
+I write [**Field Notes**](https://resume.draveniq.dev/blog) about the ideas, experiments, and engineering decisions behind the work. The [**portfolio**](https://resume.draveniq.dev/projects) brings the projects and their context together.
+
+For research conversations, technical collaboration, or an interesting engineering problem: **[let’s connect ↗](mailto:santapongsondhi@gmail.com)**.
