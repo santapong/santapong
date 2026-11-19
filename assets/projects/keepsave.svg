@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="360" viewBox="0 0 1600 360" role="img" aria-labelledby="title desc">
-<title id="title">KeepSave / Keep access deliberate. Keep secrets safe.</title><desc id="desc">Original conceptual project illustration, not a product screenshot or experimental result.</desc>
+<title id="title">KeepSave / Encrypted credentials and scoped access.</title><desc id="desc">Original conceptual project illustration, not a product screenshot or experimental result.</desc>
 <defs><linearGradient id="blue" x1="0" y1="0" x2="1" y2=".35"><stop stop-color="#72D7FF"/><stop offset=".5" stop-color="#168BEE"/><stop offset="1" stop-color="#2052C8"/></linearGradient>
 <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#72D7FF" stroke-opacity=".065"/></pattern></defs>
 <rect width="1600" height="360" rx="18" fill="#060A12"/>
@@ -14,7 +14,7 @@
 <text x="64" y="61" fill="#ED8179" font-size="20" letter-spacing="2">04</text>
 <text x="111" y="61" fill="#A9BDD0" font-size="18" letter-spacing="2.2">ENGINEERING / DEVELOPER TOOLS</text>
 <text x="59" y="157" fill="#EDF3F5" font-size="82" font-weight="700" letter-spacing="-2.5">KeepSave</text>
-<text x="64" y="218" fill="#72D7FF" font-size="33">Keep access deliberate. Keep secrets safe.</text>
+<text x="64" y="218" fill="#72D7FF" font-size="33">Encrypted credentials and scoped access.</text>
 <text x="64" y="300" fill="#A9BDD0" font-size="19" letter-spacing="1.3">VAULT / IDENTITY / RECOVERY</text></g>
 <path d="M64 335H1536" stroke="url(#blue)" stroke-width="2" opacity=".65"/>
 </svg>

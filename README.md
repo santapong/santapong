@@ -1,121 +1,95 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/profile-cover-mobile-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/profile-cover-light.svg" />
-  <img src="assets/profile-cover-dark.svg" alt="Santapong Sondhi / DraveNIQ. Build with curiosity. Learn by making. Software, AI and robotics engineer from Thailand." width="100%" />
+  <img src="assets/profile-cover-dark.svg" alt="Santapong Sondhi — Software, AI and Robotics Engineer. Embodied AI, robot learning and developer platforms. DraveNIQ." width="100%" />
 </picture>
 
 <p align="center">
-  <a href="#on-my-workbench"><b>Explore my work</b></a> &nbsp; · &nbsp;
-  <a href="https://resume.draveniq.dev/blog"><b>Field notes</b></a> &nbsp; · &nbsp;
+  <a href="#selected-work"><b>Projects</b></a> &nbsp; · &nbsp;
+  <a href="#research-interests">Research</a> &nbsp; · &nbsp;
   <a href="https://resume.draveniq.dev">Portfolio</a> &nbsp; · &nbsp;
   <a href="https://resume.draveniq.dev/resume">Resume</a> &nbsp; · &nbsp;
   <a href="https://www.linkedin.com/in/santapong-sondhi-11176034b">LinkedIn</a>
 </p>
 
-## I like the moment an idea starts doing something.
+## Engineering profile
 
-A robot moves. An experiment becomes repeatable. A tool makes someone's work a little easier.
+I'm **Santapong Sondhi**, a software, AI and robotics engineer based in Thailand. My background combines **Automation Engineering at KMITL** with manufacturing software, an industrial robotics pilot, and developer-platform work.
 
-I'm **Santapong Sondhi**, a software, AI and robotics engineer from Thailand. My background is in **Automation Engineering at KMITL**, manufacturing software, an industrial robotics pilot, and developer platforms. I enjoy connecting the pieces: code, learning, machines, and the people who use them.
+My focus is on **robot-learning experiments and developer infrastructure**: building systems that can be inspected, evaluated and improved. **DraveNIQ** brings together my independent engineering projects and research interests.
 
-**DraveNIQ is the identity I build under.** To me, it stands for curiosity, the courage to explore, and learning by making. The dragon carries that spirit; the work gives it substance.
+## Selected work
 
-### The future I want to help build
+### RLM · Robot-learning experiment framework
 
-My long-term ambition is **embodied AGI and general-purpose humanoid robots**: intelligence that can learn useful skills, adapt to unfamiliar situations, and act in the world.
+<img src="assets/projects/rlm.svg" alt="RLM — conceptual data, policy and evaluation loop. Private research." width="100%" />
 
-The questions that pull me in:
-
-- **From seeing to doing:** how do perception and language become useful robot actions?
-- **Across bodies:** what can a robot carry over when its embodiment changes?
-- **Beyond one good run:** how do we make experiments repeatable and understand why they fail?
-
-That curiosity takes two connected paths: **robots that learn** and **tools that help people build**.
-
-## On my workbench
-
-### 01 · RLM — learning through experiments
-
-<img src="assets/projects/rlm.svg" alt="RLM: a conceptual data, policy and evaluation loop. Private robot-learning research." width="100%" />
-
-A Python framework for repeatable robot-learning workflows: collect episodes, replay runs, train and evaluate policies, and explore learning across embodiments. The question behind it: **can the next experiment teach us more than the last one?**
+A Python framework for collecting and replaying episodes, training and evaluating policies, and organizing repeatable robot-learning experiments.
 
 <sub>Python · MuJoCo · Robot learning</sub>
 
-**Private research** · [Let's talk about the work ↗](mailto:santapongsondhi@gmail.com?subject=RLM%20research)
+**Private research** · [Research enquiries](mailto:santapongsondhi@gmail.com?subject=RLM%20research)
 
-### 02 · RoboLLM — connecting perception, language and action
+### RoboLLM · Robotics and VLA workbench
 
-<a href="https://github.com/santapong/RoboLLM"><img src="assets/projects/robollm.svg" alt="RoboLLM: a conceptual robot arm, camera and object. Robotics workbench and simulation experiments." width="100%" /></a>
+<a href="https://github.com/santapong/RoboLLM"><img src="assets/projects/robollm.svg" alt="RoboLLM — conceptual robot arm, camera and object." width="100%" /></a>
 
-A robotics workbench for perception, teleoperation and language-guided control. My UR5e experiments in **MuJoCo simulation** explore learned policies and camera-view shifts: **what changes when the robot sees the task differently?**
+A ROS 2 workbench for perception, teleoperation and language-guided control. UR5e experiments in **MuJoCo simulation** examine learned policies and camera-view shifts.
 
 <sub>Python · ROS 2 · MuJoCo · PyTorch</sub>
 
-[Explore RoboLLM ↗](https://github.com/santapong/RoboLLM) · [Inside the VLA experiments ↗](https://github.com/santapong/RoboLLM/tree/experiment/ur5e-vla-bed/sim/vla-bed)
+[Repository](https://github.com/santapong/RoboLLM) · [VLA experiments](https://github.com/santapong/RoboLLM/tree/experiment/ur5e-vla-bed/sim/vla-bed)
 
-### 03 · Cooker — turning code into running systems
+### Cooker · Visual software delivery
 
-<a href="https://github.com/santapong/Cooker/tree/develop"><img src="assets/projects/cooker.svg" alt="Cooker: a conceptual build, review and deployment graph." width="100%" /></a>
+<a href="https://github.com/santapong/Cooker/tree/develop"><img src="assets/projects/cooker.svg" alt="Cooker — conceptual build, review and deployment graph." width="100%" /></a>
 
-A self-hosted visual CI/CD application for pipelines and reviewed GitHub Compose deployments. I want the journey from source to execution to be something you can **see, inspect, and understand**.
+A self-hosted application for visual CI/CD pipelines and reviewed GitHub Compose deployments, with dependency graphs, approval stages and execution logs.
 
 <sub>Go · React · Docker · CI/CD</sub>
 
-[Explore Cooker ↗](https://github.com/santapong/Cooker/tree/develop) · [Follow the delivery work ↗](https://github.com/santapong/Cooker/blob/develop/docs/README.md)
+[Repository](https://github.com/santapong/Cooker/tree/develop) · [Documentation](https://github.com/santapong/Cooker/blob/develop/docs/README.md)
 
-### 04 · KeepSave — giving access clear boundaries
+### KeepSave · Developer credential management
 
-<a href="https://github.com/santapong/KeepSave"><img src="assets/projects/keepsave.svg" alt="KeepSave: a conceptual developer vault with deliberate, scoped access." width="100%" /></a>
+<a href="https://github.com/santapong/KeepSave"><img src="assets/projects/keepsave.svg" alt="KeepSave — conceptual credential vault and scoped access." width="100%" /></a>
 
-A developer vault for encrypted project credentials, scoped access, secret history and recoverable backups. It asks a practical question: **who should be able to access what, and how do we keep that decision explicit?**
+A developer vault for encrypted project credentials, scoped access, immutable secret history and encrypted backup and recovery workflows.
 
 <sub>Go · React · PostgreSQL · Access control</sub>
 
-[Explore KeepSave ↗](https://github.com/santapong/KeepSave) · [Visit the website ↗](https://keepsave.draveniq.dev)
+[Repository](https://github.com/santapong/KeepSave) · [Website](https://keepsave.draveniq.dev)
 
-<sub>These are projects in progress. Illustrations express their focus; linked repositories carry implementation and validation status. RLM remains private, and simulation experiments are described as simulation.</sub>
+<sub>Project illustrations are conceptual. Linked repositories document implementation, validation and release status.</sub>
 
-## How I like to work
+## Research interests
 
-**Ask a useful question → build a small version → observe what happens → make the next version better.**
+**Embodied AI · Vision-language-action models · Cross-embodiment learning**
 
-I care about reproducible experiments, inspectable systems, and understanding the failure as well as the successful run. A promising demo makes me curious about the next test.
+I'm interested in how robots connect perception and language to action, transfer skills across embodiments, and learn through reproducible experiments. My long-term research ambition is **embodied AGI and general-purpose humanoid robotics**.
 
-<details>
-<summary><b>Inside my toolbox</b></summary>
+## Technical focus
 
-- **Robotics & learning:** Python · ROS 2 · MuJoCo · PyTorch
-- **Software & infrastructure:** Go · TypeScript · React · FastAPI · PostgreSQL · Docker · Linux
-- **Interests:** embodied AI · vision-language-action · cross-embodiment learning · developer tools
+- **Robotics & machine learning:** Python, ROS 2, MuJoCo, PyTorch
+- **Backend & infrastructure:** Go, FastAPI, PostgreSQL, Docker, Linux
+- **Frontend:** TypeScript, React
 
-</details>
+## Selected writing
 
-## Notes from the work, and the world outside it
+- [Embodied AI vs Cross-Embodiment AI](https://resume.draveniq.dev/blog/embodied-ai-vs-cross-embodiment) — distinctions and research directions.
+- [AI Proposes, Safety Decides](https://resume.draveniq.dev/blog/ai-proposes-safety-decides) — engineering boundaries around AI-assisted decisions.
 
-I write to make sense of what I'm building. Sometimes the same engineering questions follow me beyond the keyboard.
-
-| A question I'm exploring | A field note |
-| --- | --- |
-| What changes when intelligence gets a different body? | [Embodied AI vs Cross-Embodiment AI](https://resume.draveniq.dev/blog/embodied-ai-vs-cross-embodiment) |
-| Where should an AI's proposal meet an engineering boundary? | [AI Proposes, Safety Decides](https://resume.draveniq.dev/blog/ai-proposes-safety-decides) |
-| What can the wind teach us about control? | [The Wind Window Is a State Space](https://resume.draveniq.dev/blog/kitesurfing-wind-window-control) |
-
-[Read more field notes ↗](https://resume.draveniq.dev/blog) · [Browse more projects ↗](https://resume.draveniq.dev/projects)
+[More writing](https://resume.draveniq.dev/blog) · [More projects](https://resume.draveniq.dev/projects)
 
 ---
 
-### Have a question worth building around?
+**Engineering collaboration & research enquiries**
 
-I'm happy to connect over **robot learning, embodied AI, developer tools, or an interesting engineering problem**.
-
-[Start a conversation ↗](mailto:santapongsondhi@gmail.com) · [Connect on LinkedIn ↗](https://www.linkedin.com/in/santapong-sondhi-11176034b)
+[Email](mailto:santapongsondhi@gmail.com) · [LinkedIn](https://www.linkedin.com/in/santapong-sondhi-11176034b) · [Resume](https://resume.draveniq.dev/resume)
 
 <details>
-<summary>Artwork & still banners</summary>
+<summary>Artwork</summary>
 
-Original DraveNIQ artwork from my supplied logo kit, with project illustrations created for this profile. [Artwork notes](assets/brand/README.md).
-
-[Dark still banner](assets/profile-cover-dark-static.svg) · [Light still banner](assets/profile-cover-light-static.svg)
+DraveNIQ signature from the supplied logo kit. [Artwork and source notes](assets/brand/README.md).
 
 </details>

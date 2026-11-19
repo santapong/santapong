@@ -23,69 +23,56 @@ def svg_open(width, height, title, description):
 <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="{ICE}" stroke-opacity=".065"/></pattern></defs>'''
 
 
-def build_cover(theme, logo_data, *, mobile=False, animated=False):
+def build_cover(theme, logo_data, *, mobile=False):
     c = THEMES[theme]
-    w, h = (800, 820) if mobile else (1600, 640)
-    p = [svg_open(w, h, 'Santapong Sondhi / DraveNIQ',
-        'Software, AI and robotics engineer from Thailand. Build with curiosity. Learn by making. Long-term ambition: embodied AGI and general-purpose humanoid robots. Original DraveNIQ dragon and wordmark.')]
-    p.append(f'<rect width="{w}" height="{h}" rx="22" fill="{c["bg"]}"/>')
-    if animated:
-        p.append('''<style>
-/* All content and logo stay still. The decorative line draws once, then rests. */
-@media (prefers-reduced-motion: no-preference) {
- .trace { animation: draw 3.6s ease-out 1 both; }
-}
-@keyframes draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
-</style>''')
+    w, h = (800, 560) if mobile else (1600, 400)
+    p = [svg_open(w, h, 'Santapong Sondhi / Software, AI and Robotics Engineer',
+        'Santapong Sondhi. Software, AI and robotics engineer. Focus: embodied AI, robot learning and developer platforms. Thailand. Original DraveNIQ dragon and wordmark.')]
+    p.append(f'<rect width="{w}" height="{h}" rx="18" fill="{c["bg"]}"/>')
     if mobile:
-        p.append(f'''<g font-family="Arial, Helvetica, sans-serif">
-<text x="48" y="63" fill="{c['accent']}" font-size="20" letter-spacing="3">ENGINEER / BUILDER / EXPLORER</text>
-<text x="44" y="140" fill="{c['text']}" font-size="62" font-weight="700" letter-spacing="-2">Santapong Sondhi</text>
-<text x="48" y="235" fill="{c['text']}" font-size="58" font-weight="700" letter-spacing="-2">Build with curiosity.</text>
-<text x="48" y="305" fill="{c['accent']}" font-size="58" font-weight="700" letter-spacing="-2">Learn by making.</text></g>
-<rect x="48" y="346" width="704" height="307" rx="16" fill="{NAVY}"/>
-<image x="170" y="349" width="460" height="306.6667" preserveAspectRatio="xMidYMid meet" xlink:href="{logo_data}"/>
-<g font-family="Arial, Helvetica, sans-serif">
-<text x="48" y="710" fill="{c['muted']}" font-size="26">Software, AI &amp; robotics · Thailand</text>
-<text x="48" y="765" fill="{c['accent']}" font-size="22">Toward embodied AI &amp; humanoid robotics</text></g>
-<path d="M48 796H752" fill="none" stroke="url(#blue)" stroke-width="3"/>''')
+        p.append(f"""<g font-family="Arial, Helvetica, sans-serif">
+<text x="48" y="56" fill="{c['muted']}" font-size="18" letter-spacing="2.8">ENGINEERING / RESEARCH</text>
+<text x="44" y="130" fill="{c['text']}" font-size="65" font-weight="700" letter-spacing="-2">Santapong Sondhi</text>
+<text x="48" y="198" fill="{c['accent']}" font-size="38">Software, AI &amp; Robotics Engineer</text>
+<text x="48" y="294" fill="{c['text']}" font-size="28">Embodied AI</text>
+<text x="48" y="339" fill="{c['text']}" font-size="28">Robot learning</text>
+<text x="48" y="384" fill="{c['text']}" font-size="28">Developer platforms</text>
+<text x="48" y="505" fill="{c['muted']}" font-size="22">Thailand · Automation Engineering, KMITL</text></g>
+<rect x="428" y="244" width="324" height="216" rx="12" fill="{NAVY}"/>
+<image x="428" y="244" width="324" height="216" preserveAspectRatio="xMidYMid meet" xlink:href="{logo_data}"/>
+<path d="M48 535H752" stroke="url(#blue)" stroke-width="2"/>""")
     else:
-        p.append(f'''<rect x="1030" y="32" width="538" height="576" rx="16" fill="{NAVY}" stroke="#1C3048"/>
-<image x="1034" y="50" width="530" height="353.3333" preserveAspectRatio="xMidYMid meet" xlink:href="{logo_data}"/>
+        p.append(f"""<rect x="1032" y="28" width="536" height="344" rx="12" fill="{NAVY}" stroke="#1C3048"/>
+<image x="1042" y="28" width="516" height="344" preserveAspectRatio="xMidYMid meet" xlink:href="{logo_data}"/>
 <g font-family="Arial, Helvetica, sans-serif">
-<text x="72" y="73" fill="{c['accent']}" font-size="20" letter-spacing="3.4">ENGINEER / BUILDER / EXPLORER</text>
-<text x="65" y="174" fill="{c['text']}" font-size="89" font-weight="700" letter-spacing="-3">Santapong Sondhi</text>
-<text x="72" y="295" fill="{c['text']}" font-size="72" font-weight="700" letter-spacing="-2.5">Build with curiosity.</text>
-<text x="72" y="383" fill="{c['accent']}" font-size="72" font-weight="700" letter-spacing="-2.5">Learn by making.</text>
-<text x="74" y="442" fill="{c['muted']}" font-size="27">Software, AI &amp; robotics · Thailand</text>
-<text x="74" y="559" fill="{c['muted']}" font-size="19" letter-spacing="1.4">EMBODIED AI / ROBOT LEARNING / DEVELOPER TOOLS</text>
-<circle cx="1080" cy="452" r="5" fill="{CORAL}"/>
-<text x="1100" y="458" fill="{ICE}" font-size="16" letter-spacing="2.4">MY NORTH STAR</text>
-<text x="1075" y="512" fill="{WHITE}" font-size="31" font-weight="700">Intelligence that can</text>
-<text x="1075" y="554" fill="{WHITE}" font-size="31" font-weight="700">learn, adapt &amp; act.</text></g>
-<path class="trace" d="M74 493H951" pathLength="1" stroke-dasharray="1" fill="none" stroke="url(#blue)" stroke-width="3"/>''')
+<text x="68" y="65" fill="{c['muted']}" font-size="18" letter-spacing="3.1">ENGINEERING / RESEARCH</text>
+<text x="61" y="164" fill="{c['text']}" font-size="89" font-weight="700" letter-spacing="-3">Santapong Sondhi</text>
+<text x="68" y="238" fill="{c['accent']}" font-size="40">Software, AI &amp; Robotics Engineer</text>
+<text x="68" y="301" fill="{c['text']}" font-size="27">Embodied AI · Robot learning · Developer platforms</text>
+<text x="68" y="350" fill="{c['muted']}" font-size="23">Thailand · Automation Engineering, KMITL</text></g>
+<path d="M68 375H960" stroke="url(#blue)" stroke-width="2"/>""")
     p.append('</svg>')
     return '\n'.join(p) + '\n'
 
 
 PROJECTS = [
-    ('rlm', '01', 'RESEARCH / PRIVATE', 'RLM', 'Make robot experiments repeatable.', 'EPISODES / POLICIES / EVALUATION',
+    ('rlm', '01', 'RESEARCH / PRIVATE', 'RLM', 'Repeatable robot-learning experiments.', 'EPISODES / POLICIES / EVALUATION',
      '''<path d="M1040 111C1110 35 1295 37 1350 112M1381 163C1455 247 1350 315 1275 292M1187 290C1080 318 1018 252 1052 187" stroke-dasharray="9 10"/>
 <rect x="1030" y="92" width="150" height="88" rx="13"/><rect x="1292" y="92" width="150" height="88" rx="13"/><rect x="1162" y="235" width="150" height="88" rx="13"/>
 <path d="M1056 119H1153M1056 136H1125M1056 153H1140M1320 136H1414M1193 275L1216 294L1259 259"/>
 <circle cx="1330" cy="136" r="6" fill="#ED8179"/><circle cx="1367" cy="136" r="6" fill="#72D7FF"/><circle cx="1404" cy="136" r="6" fill="#72D7FF"/>'''),
-    ('robollm', '02', 'RESEARCH / ROBOTICS WORKBENCH', 'RoboLLM', 'Connect perception, language & action.', 'ROS 2 / MUJOCO / VISION-LANGUAGE-ACTION',
+    ('robollm', '02', 'RESEARCH / ROBOTICS WORKBENCH', 'RoboLLM', 'Perception, language and robot control.', 'ROS 2 / MUJOCO / VISION-LANGUAGE-ACTION',
      '''<path d="M1065 307H1420M1180 299V264L1110 203L1202 101L1298 168L1352 154M1349 143L1381 154L1385 181M1355 170L1371 194" stroke-width="10"/>
 <circle cx="1110" cy="203" r="18" fill="#060A12"/><circle cx="1202" cy="101" r="18" fill="#060A12"/><circle cx="1298" cy="168" r="13" fill="#060A12"/>
 <rect x="1014" y="83" width="94" height="61" rx="11"/><circle cx="1048" cy="114" r="15"/><path d="M1108 103L1132 93V137L1108 127M1352 243L1395 219L1438 243V287L1395 312L1352 287ZM1352 243L1395 268L1438 243M1395 268V312"/>
 <path d="M1225 54H1370M1240 39H1385" opacity=".25"/>'''),
-    ('cooker', '03', 'ENGINEERING / DEVELOPER TOOLS', 'Cooker', 'Turn source code into running systems.', 'BUILD / REVIEW / DEPLOY',
+    ('cooker', '03', 'ENGINEERING / DEVELOPER TOOLS', 'Cooker', 'Visual pipelines and reviewed deployments.', 'BUILD / REVIEW / DEPLOY',
      '''<path d="M1027 187H1450" stroke-dasharray="8 9"/>
 <rect x="1014" y="140" width="98" height="96" rx="15"/><rect x="1188" y="140" width="98" height="96" rx="15"/><rect x="1362" y="140" width="98" height="96" rx="15"/>
 <path d="M1047 170L1033 187L1047 204M1079 170L1093 187L1079 204M1070 165L1057 210M1215 187L1230 202L1260 171M1390 183L1411 171L1432 183V210L1411 222L1390 210ZM1390 183L1411 195L1432 183M1411 195V222"/>
 <path d="M1237 139V91H1411V139" opacity=".45"/><circle cx="1237" cy="91" r="5" fill="#ED8179"/>
 <path d="M1063 261V284H1411V261" opacity=".25"/>'''),
-    ('keepsave', '04', 'ENGINEERING / DEVELOPER TOOLS', 'KeepSave', 'Keep access deliberate. Keep secrets safe.', 'VAULT / IDENTITY / RECOVERY',
+    ('keepsave', '04', 'ENGINEERING / DEVELOPER TOOLS', 'KeepSave', 'Encrypted credentials and scoped access.', 'VAULT / IDENTITY / RECOVERY',
      '''<rect x="1080" y="65" width="205" height="245" rx="27"/><rect x="1097" y="83" width="171" height="209" rx="18" opacity=".35"/>
 <circle cx="1182" cy="177" r="42"/><path d="M1182 166V196" stroke-width="11"/><circle cx="1182" cy="161" r="9" fill="#72D7FF"/>
 <path d="M1285 121H1340V90H1373M1285 188H1373M1285 254H1340V286H1373" opacity=".55"/>
@@ -118,7 +105,7 @@ def outputs():
         raise SystemExit('Supplied logo differs from the reviewed source; reconcile before generating.')
     data = 'data:image/png;base64,' + base64.b64encode(logo).decode('ascii')
     for theme in THEMES:
-        yield f'assets/profile-cover-{theme}.svg', build_cover(theme, data, animated=True)
+        yield f'assets/profile-cover-{theme}.svg', build_cover(theme, data)
         yield f'assets/profile-cover-{theme}-static.svg', build_cover(theme, data)
         yield f'assets/profile-cover-mobile-{theme}.svg', build_cover(theme, data, mobile=True)
     for item in PROJECTS:

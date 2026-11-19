@@ -18,9 +18,9 @@ Run `python3 scripts/build_profile_covers.py` from the repository root to
 regenerate the desktop, mobile and still headers and four project covers.
 Use `--check` to verify that checked-in output matches the generator.
 All SVGs are self-contained: no remote font, image service or script is needed.
-Desktop headers have one decorative 3.6-second line reveal, enabled only with
-`prefers-reduced-motion: no-preference`; all text and logo pixels remain still.
-Mobile and separately linked still headers have no animation.
+All desktop, mobile and separately linked still headers are static. The shorter
+role-led composition keeps the person and engineering focus primary, with the
+original DraveNIQ signature as the supporting identity.
 
 The mobile navy source comes before the desktop light/dark choice in the
 README. GitHub rewrites colour-scheme source conditions to match its own theme;
