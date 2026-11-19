@@ -21,3 +21,9 @@ All SVGs are self-contained: no remote font, image service or script is needed.
 Desktop headers have one decorative 3.6-second line reveal, enabled only with
 `prefers-reduced-motion: no-preference`; all text and logo pixels remain still.
 Mobile and separately linked still headers have no animation.
+
+The mobile navy source comes before the desktop light/dark choice in the
+README. GitHub rewrites colour-scheme source conditions to match its own theme;
+combining a width query with that condition can lose the width constraint.
+Keeping the width-only source first preserves mobile art direction in either
+GitHub theme. The light mobile asset is retained as an alternative artwork.

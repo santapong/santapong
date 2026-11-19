@@ -1,5 +1,4 @@
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/profile-cover-mobile-light.svg" />
   <source media="(max-width: 600px)" srcset="assets/profile-cover-mobile-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/profile-cover-light.svg" />
   <img src="assets/profile-cover-dark.svg" alt="Santapong Sondhi / DraveNIQ. Build with curiosity. Learn by making. Software, AI and robotics engineer from Thailand." width="100%" />
